@@ -1,0 +1,85 @@
+/* Styling for the outer container */
+.containerL {
+    display: flex;
+    background-image: url('../Auth//images/glambackground_4.jpg');
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .containerL {
+      /* Modify properties for smaller screens */
+      
+      /* Other modifications */
+    }
+    .logo-image {
+      width: 120px !important;
+      display: block;
+      margin: 0 auto;
+      filter: brightness(80%) contrast(200%);
+    }
+    .title-text {
+      text-align: center;
+      font-size: 1.2rem !important;
+    }
+    .containerL .MuiContainer-root {
+      padding: 1rem !important;
+      margin: 3%;
+    }
+  }
+  
+  /* Styling for the main container */
+  .containerL .MuiContainer-root {
+    padding: 2rem;
+    background-color: rgba(235, 235, 235, 0.3);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(81, 88, 99, 0.4);
+    backdrop-filter: blur(20px);
+  }
+  
+  /* Styling for the logo image */
+  .logo-image {
+    width: 140px;
+    display: block;
+    margin: 0 auto;
+    filter: brightness(80%) contrast(200%);
+  }
+  
+  /* Styling for the title text */
+  .title-text {
+    text-align: center;
+    font-size: 1.7rem !important;
+    color: #6b6b71;
+    /* color: #ffffff; */
+    font-family: 'Avenir', 'Helvetica Neue', sans-serif !important;
+    text-transform: initial;
+    letter-spacing: 1.5px !important;
+    font-family: initial !important;
+    font-weight: 600 !important;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); */
+    text-shadow: 2px 2px 4px rgb(212 191 191);
+  }
+  
+  /* Styling for the Sign In button */
+  .sign-in-button {
+    display: block;
+    margin: 20px auto !important;
+    transition: background-color 0.3s ease;
+    background: linear-gradient(to left, #469ad2, #00259e);
+    color: #fff;
+    padding: 10px 20px !important;
+    border-radius: 15px !important;
+    cursor: pointer;
+    transition: background 0.8s ease-in-out;
+    font-weight: bold !important;
+    font-size: 1rem !important;
+    text-transform: uppercase;
+  }
+  
+  .sign-in-button:hover {
+    background: #02196e !important;
+  }

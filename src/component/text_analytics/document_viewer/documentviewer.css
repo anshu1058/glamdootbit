@@ -1,0 +1,93 @@
+/* DocumentViewer.css */
+.document-viewer-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .page-counter {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .pdf-container {
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 500px;
+    max-width: 800px; /* Set the maximum width */
+    max-height: 600px; /* Set the maximum height */
+  }
+  
+  #react-doc-viewer #header-bar {
+    display: none;
+
+  }
+  
+
+  #react-doc-viewer #pdf-controls {
+    padding:13px;
+     display: none;
+    justify-content: center;
+    /* border:2px solid red */
+  }
+  #react-doc-viewer  #pdf-toggle-pagination #Scroll_1{
+    transform:none !important;
+    /* border: 2px solid red !important */
+  }
+  #react-doc-viewer #pdf-controls .klFEww {
+    display: none;
+  }
+  #react-doc-viewer #pdf-page-info{
+    display: none;
+  }
+
+  #react-doc-viewer #proxy-renderer{
+    overflow-y:none;
+    /* border: 3px solid; */
+    border-bottom: none;
+  }
+  #react-doc-viewer  #msdoc-iframe .WACScroller .WacAirSpaceShared_BasicClass{
+    /* height: 862px;  */
+    width: 626px;
+  }
+
+  #react-doc-viewer  #msdoc-iframe .WACPageBorder .WacAirSpaceShared_BasicClass{
+    height: 102vw;
+    left: 10px;
+    top: 10px;
+    /* border: 2px solid red; */
+  }
+
+  #react-doc-viewer  #msdoc-iframe .WACPageImg .WacAirSpaceShared_BasicClass{
+        /* display: inline; */
+        visibility: visible;
+        height: 128vw;
+        width: -webkit-fill-available;
+  }
+
+  #react-doc-viewer  #msdoc-renderer #msdoc-iframe #WACAppBase .WACAppBase{
+    width: inherit;
+    top: 0px;
+    bottom: 28px;
+    /* border: 2px solid green; */
+  }
+
+  #react-doc-viewer #msdoc-renderer #msdoc-iframe{
+    /* border: 2px solid red; */
+    width:100%;
+    height:100%
+  }
+  @media (max-width: 768px){
+
+#header-bar .dyJNZe {
+    min-height: 17px !important;
+    padding: 5px;
+    font-size: 10px;
+    /* border: 2PX SOLID RED; */
+}
+
+}
+ 
+ #iframedocpreview #toolbar {
+  display: none;
+}

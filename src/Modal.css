@@ -1,0 +1,322 @@
+/* Keyframe for sliding the modal up */
+@keyframes slideUp {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+
+.modal-overlay {
+  position: absolute;
+  top: 3%; 
+  /* width: 30vw; Adjust based on your layout needs */
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  z-index: 900;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  opacity: 0;
+  visibility: hidden;
+  box-sizing: border-box;
+}
+
+.modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+  width:100%;
+}
+
+.modal-content {
+  position: relative;
+  background-color: white; /* The solid white background */
+  background-image: url('chatbot-bg.jpg'); /* The background image */
+  background-size: cover; /* Adjusts the size of the image */
+  background-repeat: no-repeat; /* Prevents image from repeating */
+  background-position: center; /* Centers the image */
+  background-blend-mode: multiply; /* Blends the background image with the background color */
+  opacity: 1; /* Full opacity for the container */
+  
+  width: 100%;
+  max-width: 700px;
+  border-radius: 10px;
+  box-shadow: 0 17px 35px #171a1f, 0 0 2px #171a1f;
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+  padding: 15px;
+  box-sizing: border-box;
+  height: 69vh;
+  overflow-y: auto;
+  margin-bottom: 5.4rem;
+  z-index: 900;
+  border: 1px solid rgb(226, 220, 220);
+}
+
+
+
+
+.modal-content::-webkit-scrollbar {
+  display: none;
+}
+
+.modal-content {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.modal-content.active {
+  animation: slideUp 0.5s ease-in-out forwards;
+  width:100% !important;
+}
+
+.modal-section {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.modal-section h3 {
+  margin: 15px 0;
+  color: #3b3b3b;
+  font-size: 19px;
+  font-weight: 550;
+  line-height: 140%;
+  letter-spacing: 0.056px;
+}
+
+.modal-options-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin:1vh;
+}
+
+.modal-option-item {
+  display: flex;
+  justify-content: center;
+  width: 13vh ;
+  height: clamp(80px, 10vh, 120px);
+  padding: 5px;
+  background: #FCFCFC;
+  border: 1px solid rgba(178, 178, 178, 0.5);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+  transition: all 0.3s ease;
+  box-sizing: content-box;
+}
+
+.modal-option-item:hover {
+  background-color: #e6e3e3;
+}
+
+.modal-option-item.expanded {
+  width: auto;
+  height: auto;
+  flex: 1;
+  flex-direction: column;
+}
+
+.modal-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 0.5vh;
+}
+
+.modal-option.expandedoption {
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 9px;
+  gap: 5px;
+  flex-wrap: wrap;
+margin-top:-4vh
+}
+
+.icon-row {
+  height: clamp(30px, 3vh, 80px);
+  width: clamp(30px, 2vw, 50px);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+  position: relative; /* Default position */
+}
+
+.icon-row.justify-end {
+  justify-content: flex-end; /* Aligns the icon to the end */
+}
+
+.icon-row.justify-start {
+  justify-content: flex-start; /* Aligns the icon to the start */
+}
+
+/* Default expanded class */
+.icon-row.expanded {
+  position: relative;
+  z-index: 10;
+}
+
+/* Custom positions for each icon */
+
+
+  .icon-row.expanded.debit-card{
+    top: 2.7vh;
+    left:65%;
+  }
+  .icon-row.expanded.credit-cards {
+    top: 2.7vh;
+    left: 65%;
+  }
+  
+  .icon-row.expanded.investments {
+    top: 2.3vh;
+    left: 70%;
+  }
+  /* @media only screen and (min-width: 1200px) and (min-height: 800px) {
+    .icon-row.expanded.debit-card {
+      top: 345px;
+      left: 60%;
+  }
+  .icon-row.expanded.credit-cards {
+    top: 415px !important;
+    left: 60%;
+  }
+  
+  .icon-row.expanded.investments {
+    top: 610px;
+    left: 60%;
+  }
+  }
+  
+@media(max-width:900px){
+  .icon-row.expanded.debit-card {
+      top: 310px;
+      left: 60%;
+  }
+  .icon-row.expanded.credit-cards {
+    top: 415px !important;
+    left: 60%;
+  }
+  
+  .icon-row.expanded.investments {
+    top: 610px;
+    left: 60%;
+  }
+}
+@media(max-width:600px){
+  .icon-row.expanded.debit-card {
+      top: 315px;
+      left: 60%;
+  }
+  .icon-row.expanded.credit-cards {
+    top: 422px !important;
+    left: 60%;
+  }
+  
+  .icon-row.expanded.investments {
+    top: 610px !important;
+    left: 60%;
+  }
+}
+@media(max-width:400px){
+  .icon-row.expanded.debit-card {
+      top: 328px;
+      left: 60%;
+  }
+  .icon-row.expanded.credit-cards {
+    top: 420px !important;
+    left: 60%;
+  }
+  
+  .icon-row.expanded.investments {
+    top: 400px !important;
+    left: 60%;
+  }
+} */
+
+
+.icon {
+  width: 28px; /* Default icon size */
+  height: 28px;
+  color: rgb(33, 79, 172, 90%);
+}
+
+/* Move and scale the icon when expanded */
+.icon-row.expanded .icon {
+  transform: scale(3) translateX(20px); /* Scale up and move right */
+}
+
+
+.text-row {
+  word-wrap: break-word;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: 0.048px;
+  color: #383c42;
+  display: flex;
+  justify-content: flex-start;
+  transition: font-size 0.3s ease;
+}
+.text-row.expanded-text {
+  font-size: 18px; /* Larger font when expanded */
+  font-weight: bold; /* Bold text when expanded */
+}
+
+.modal-suboption-item {
+  cursor: pointer;
+  padding: 5px 7px;
+  background: #004B9C;
+  border-radius: 9px;
+  border: 1.5px solid transparent;
+  transition: background-color 0.3s;
+  color: white;
+}
+
+.modal-suboption-item:hover {
+  background-color: #abc0fa;
+}
+.text-row p{
+  font-size:13px !important;
+}
+/* Responsive styles */
+@media (max-width: 1200px) {
+  /* .modal-overlay { width: 40vw; } */
+  .icon-row {
+      height: clamp(20px, 5.3vh, 40px);
+      width: clamp(20px, 4vw, 30px);
+  }
+}
+
+@media (max-width: 768px) {
+  /* .modal-overlay { width: 78.5vw; } */
+  .modal-content { height: 65vh;  }
+
+}
+
+@media (max-width: 600px) {
+  /* .modal-overlay { width: 43vh; } */
+ 
+  .icon-row {
+      height: clamp(20px, 3vh, 40px);
+      width: clamp(20px, 5vw, 30px);
+  }
+}
+
+@media (max-width: 480px) {
+  /* .modal-overlay { width: 98vw; } */
+  .modal-content { margin-bottom: 3.4rem; }
+  .icon-row {
+      height: clamp(20px, 5vh, 40px);
+      width: clamp(20px, 9vw, 30px);
+  }
+}
+
+@media (max-width: 360px) {
+  /* .modal-overlay { width: 54vh; } */
+  .modal-content {
+      margin-bottom: 3.3rem;
+      height: 65vh;
+      padding: 8px;
+  }
+}

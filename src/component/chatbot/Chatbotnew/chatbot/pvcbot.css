@@ -1,0 +1,1993 @@
+#main_window_subheading .ac-textRun {
+    font-weight: 400 !important;
+}
+
+/*css for caraousel images */
+#banner1 .ac-image {
+    /* margin :0 0 0 -5px !important; */
+}
+
+#banner1 .ac-image,
+#banner2 .ac-image,
+#banner3 .ac-image,
+#banner4 .ac-image,
+#banner5 .ac-image {
+    border-radius: 7px !important;
+    margin: 0 0 0 -5px !important;
+
+}
+
+[id^='350484d1-6c9c-f4b6-fb46-5020fe8566f5'] [aria-label="WhatsApp Banking"]:hover div {
+    text-decoration: underline;
+}
+
+#main_window_actionS1 [aria-label="API Support"]:hover div {
+    text-decoration: underline;
+}
+
+#main_window_actionS4 [aria-label="Open Savings Account"]:hover div {
+    text-decoration: underline;
+}
+
+[id^='929c75c0-2623-015a-2774-5c91b8f28507'] [title="ASAP Digital FD"] :hover {
+    text-decoration: underline !important;
+
+}
+
+[id^='929c75c0-2623-015a-2774-5c91b8f28507'] [title="Open Current Account"] :hover {
+    text-decoration: underline;
+
+}
+
+[role="complementary"] {
+    border-radius: 10px !important;
+
+}
+
+/*  .ac-textBlock{
+    height: fit-content;
+    color: #242424 !important;
+    width: fit-content;
+    background:  #DDF2FD!important;
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 15px !important;
+    padding: 13px 42px 13px 12px;
+} */
+/*css for bot background border  */
+
+/*css for user text styles */
+.webchat__bubble.webchat__bubble--from-user .webchat__bubble__content {
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+    border-bottom-left-radius: 15px !important;
+    border-bottom-right-radius: 0px !important;
+
+}
+
+.webchat__text-content__markdown {
+    /* height: fit-content;
+    color: #242424 !important;
+    width: fit-content;
+    background:  #DDF2FD!important;
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 15px !important; */
+
+
+
+}
+
+.webchat__text-content__markdown ol {
+    margin: 0 92px 8px 0px !important;
+}
+
+.webchat__text-content__markdown p {
+    margin: 5px 39px 5px 5px !important;
+    text-align: left !important;
+    padding: 5px !important;
+}
+
+/* css for hide the icon of input box */
+.webchat--css-gevrg-1r0ige7 {
+    display: none !important;
+}
+
+[title="Upload file"] {
+    display: none !important;
+
+}
+
+[aria-label="Message input box"] {
+    margin: 0 0 0 -35px !important;
+    color: #0056B3;
+}
+#welcome_page{
+    justify-content: center;
+}
+/* bot height and width */
+.newOLbot {
+    height: 85vh;
+    width: 100%;
+}
+[id^="switch_on_off_card_block_actionset"] .ac-actionSet button[aria-label="Switch ON"]{
+    background-color:green !important;
+    color:white !important;
+    width: 6rem !important;
+}
+[id^="switch_on_off_card_block_actionset"] .ac-actionSet button[aria-label="Switch Off"]{
+    background-color:red !important;
+    color:white !important;
+    width: 6rem !important;
+}
+.ac-pushButton div {
+    font-weight: 60 !important;
+}
+
+.webchat__basic-transcript {
+    /* border: 1px solid green; */
+    height: 150vh;
+
+}
+
+.webchat__basic-transcript__scrollable {
+    overflow-y: auto;
+}
+.webchat__icon-button{
+    height:37px !important;
+    width:37px !important;
+}
+.webchat__icon-button .webchat__icon-button__shade {
+    background: rgb(33 150 243) !important;
+    /* -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important; */
+}
+
+.webchat__icon-button {
+    fill: white !important;
+}
+
+.webchat__basic-transcript__scrollable::-webkit-scrollbar {
+    width: 1em !important;
+    height: 2em
+}
+
+.webchat__basic-transcript__scrollable::-ms-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.web-chat {
+    border-radius: 25px 25px 20px 20px !important;
+    /* border: 1px solid red; */
+}
+
+.webchat__suggested-action {
+    border-radius: 10px;
+    height: 28px;
+}
+
+.webchat__send-box .webchat__send-box__main {
+    border: 1px solid red !important;
+    border-top: none !important;
+    border-radius: 25px;
+    margin-left: 2.5rem;
+    margin-bottom: 0.5rem;
+    width:-webkit-fill-available;
+    margin-right:0.5rem;
+    /* height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.webchat__send-box .webchat__send-box__microphone-button {
+
+    margin-top: 4px;
+    margin-right: 5px;
+    /* margin-bottom: 5px; */
+}
+
+/* .webchat__bubble.webchat__bubble--from-user .webchat__bubble__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+} */
+
+.webchat__suggested-action {
+    height: 27px !important;
+    border-radius: 15px;
+    background-clip: padding-box, border-box !important;
+    background-origin: border-box;
+    background-image: linear-gradient(white, white), linear-gradient(45deg, #5f9eff, #0d0231) !important;
+    transition: background-color 0.3s;
+}
+
+.webchat__text-content {
+    padding: 5px 8px !important;
+}
+
+.webchat__send-box {
+    border-top: 1px solid rgb(235, 228, 228);
+}
+
+[id^="switch_on_off_card_text_debit_card_"]{
+    font-size:17px !important;
+    color:white !important;
+}
+[id^="page_"] {
+    background: linear-gradient(90deg, #0C488F 46%, #0B3E7B 100%);
+    padding:11px !important;
+}
+
+[id^="switch_on_off_card_card_number_"] p{
+    color: white !important;
+    font-size: 3vh !important;
+    font-family: "Courier New", Courier, monospace !important;
+}
+
+[id^="switch_on_off_card_valid_thru_text_"], 
+[id^="switch_on_off_card_valid_from_text_"] {
+    color: white !important;
+}
+
+[id^="switch_on_off_card_block_column_"],[id^="switch_on_off_card_block_columnset_"] {
+    margin-top: -2vh !important;
+}
+[id^="switch_on_off_card_block_columnset_"] [id^="switch_on_off_card_block_column"]{
+    justify-content:center !important;
+    margin-top:10px !important;
+}
+[id^="switch_on_off_card_unblock_image_"] .ac-image.ac-selectable {
+    width: 71px !important;
+    margin-top: -20px !important;
+}
+[id^="switch_on_off_card_image_chip_"] .ac-image{
+width:40px !important;
+}
+[id^="switch_on_off_card_image_nfc_"] .ac-image{
+    width:19px !important;
+    }
+    [id^="switch_on_off_card_columnset_"]{
+        margin-top:-10px !important;
+    }
+
+#ChequeService_Container button{
+    width:auto !important;
+}    
+
+.menu {
+    position:fixed;
+    bottom: 20px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    cursor: pointer;
+    /* border: 1px solid red; */
+    /* color: #0078D4; */
+    color: rgb(7 7 87 / 90%);
+    margin-left: 10px;
+    z-index: 1001;
+    /* Ensure it's above the send box background */
+
+}
+/* Further adjustments for very small screens */
+
+@media(max-width:500px){
+    .menu {
+        position:fixed;
+        bottom: 3px !important;
+        transform: translateY(-50%);
+        font-size: 20px;
+        cursor: pointer;
+        /* border: 1px solid red; */
+        /* color: #0078D4; */
+        color: rgb(7 7 87 / 90%);
+        margin-left: 10px;
+        z-index: 1001;
+        /* Ensure it's above the send box background */
+    
+    }
+  }
+  @media(max-width:700px){
+    .menu {
+        position:fixed;
+        bottom: 27px;
+        transform: translateY(-50%);
+        font-size: 20px;
+        cursor: pointer;
+        /* border: 1px solid red; */
+        /* color: #0078D4; */
+        color: rgb(7 7 87 / 90%);
+        margin-left: 10px;
+        z-index: 1001;
+        /* Ensure it's above the send box background */
+    
+    }
+  }
+.webchat__suggested-actions {
+    margin-left: 0px;
+    background: none;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+
+#ac_mini_statement_container_2 .ac-textBlock p{
+color: #064791;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.react-film--css-fnorf-txtskt .react-film__filmstrip .react-film__filmstrip__list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.webchat__defaultAvatar--fromUser .webchat__imageAvatar__image>img {
+    width: 408%;
+}
+
+.webchat__imageAvatar__image>img {
+    width: 200%;
+}
+
+.webchat__initialsAvatar:not(.webchat__initialsAvatar--fromUser) {
+    display: block;
+    width: 50px;
+    height: 56px;
+    background-image: url('https://avatarbot.blob.core.windows.net/container/ef03c9fde1ca302311dceed7c277be58.jpg');
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+}
+
+[aria-label^="Sign in"] {
+    border-radius: 45px;
+    width: fit-content;
+}
+
+#main_window_ac {
+    margin: 0 0 0 -13px !important;
+}
+
+.webchat__stacked-layout__attachment {
+    width: 33vw;
+    margin: 0 0 0 -11px;
+}
+
+/*---suggested button hover css ---*/
+.webchat__suggested-actions__button {
+    appearance: none;
+    background-color: transparent;
+    border: 1.5px solid !important;
+    /* border-radius: 0.9375em; */
+    box-sizing: border-box;
+    color: #314ea0;
+    cursor: pointer;
+    display: inline-block;
+    /* font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; */
+    /* font-size: 16px; */
+    /* font-weight: 600; */
+    line-height: normal;
+    /* margin: 0; */
+    /* min-height: 3.75em; */
+    /* min-width: 0; */
+    /* outline: none; */
+    /* padding: 1em 2.3em; */
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+    border-radius: 45px !important;
+}
+
+.webchat__suggested-actions__button:disabled {
+    pointer-events: none;
+
+}
+
+.webchat__suggested-actions__button:hover {
+    color: #fff;
+    background-color: #167BF5;
+}
+
+.webchat__suggested-actions__button {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+/*---button hover css ---*/
+.ac-pushButton {
+    appearance: none;
+    background-color: transparent;
+    border: 0.125em solid #0056B3;
+    /* border-radius: 0.9375em; */
+    box-sizing: border-box;
+    color: #314ea0;
+    cursor: pointer;
+    display: inline-block;
+    /* font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; */
+    /* font-size: 16px; */
+    font-weight: 300 !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    line-height: normal;
+    /* margin: 0; */
+    /* min-height: 3.75em; */
+    /* min-width: 0; */
+    /* outline: none; */
+    /* padding: 1em 2.3em; */
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+}
+
+.ac-pushButton:disabled {
+    pointer-events: none;
+}
+
+.ac-pushButton:hover {
+    color: black;
+    background-color: #abd0ef;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px; */
+    /* transform: translateY(-2px); */
+}
+
+.ac-pushButton:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+#dc_ac .ac-actionSet button{
+    width: fit-content !important;
+}
+#dc_ac #dc_actionS3 .ac-actionSet button{
+    width: 8rem !important;
+}
+#CC_MENU_Container .ac-actionSet button{
+    width: fit-content !important;
+}
+/*---background color css ---*/
+#bal_container,
+#bal_data_ac,
+#mini_statement_ac,
+#mini_statement_data_ac {
+    /*     
+background-color:  0 4px 8px rgba(28, 27, 27, 0.1) !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+    border: 1px white !important;
+    border-radius: 15px !important;
+
+    */
+
+}
+
+#Avaliable_bal_textblock p {
+    /* font-size: 20px !important; */
+}
+
+/* #bal_container,
+#mini_statement_ac,
+#ac_mutual,
+#DigitalGold_ac,
+#SovereginGoldBond_ac,
+#FloatingRateSavingsBonds_ac,
+#NationalPensionScheme_ac,
+#PPF_ac,
+#SavingAccount_ac,
+#cc_apply_ac,
+#directAccount_ac,
+#ac_dc_switch{
+    margin: 22px !important;
+    margin: 20px 10px 20px 20px !important;
+    border-radius: 15px;
+    background: rgb(255, 255, 255);
+    padding: 0px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    
+        box-shadow: rgba(50, 50, 93, 0.25) 0px -5px 10px -5px, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px;
+      
+ 
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px;
+      
+      
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px;
+} */
+
+#bal_data_ac,
+#mini_statement_data_ac,
+#ac_hidden_report{
+    background: rgb(255, 255, 255) !important;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px; */
+
+    padding: 17px 15px 15px !important;
+    /* margin: 1px -9px -19px -20px !important; */
+    border-radius: 15px !important;
+    border: 1px solid rgb(243, 239, 239) !important;
+    border-bottom-left-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.webchat__bubble:not(.webchat__bubble--from-user) {
+    border-width: 0px !important;
+    background-color: #fff !important;
+    border-radius: 16px !important;
+
+    /* border-style: solid; */
+    /* border-width: 1px
+    /* border: 1px solid red !important; */
+    /* box-shadow: 0 1px 2px #1e293b0d, 0 1px 3px #1e293b1a !important; */
+    margin-left: 0.7rem !important;
+    height: auto !important;
+    width: auto !important;
+    border: none !important;
+}
+
+.webchat__bubble:not(.webchat__bubble--from-user) .webchat__bubble__content {
+    border-width: none !important;
+    border-color: none !important;
+    border-style: none !important;
+    border: none !important;
+}
+
+/* css for button and main menu */
+
+
+[id^='350484d1-6c9c-f4b6-fb46-5020fe8566f5'] .ac-actionSet {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 0.3rem;
+    padding: 0 1.2rem 0 1rem;
+
+}
+
+[id^='350484d1-6c9c-f4b6-fb46-5020fe8566f5'] .ac-pushButton {
+    width: fit-content !important;
+    border-radius: 45px;
+    /* border-radius: 6px !; */
+
+    height: 0rem !important;
+    size: initial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2px;
+    /* Adjust the spacing as needed */
+    margin-bottom: 5px
+}
+
+[id^='350484d1-6c9c-f4b6-fb46-5020fe8566f5'] .ac-pushButton img {
+    max-height: none !important;
+    margin-right: 6px !important;
+    color: #101C3D !important;
+}
+
+[id^='929c75c0-2623-015a-2774-5c91b8f28507'] .ac-actionSet {
+    display: flex !important;
+    flex-direction: row !important;
+    padding: 0 1.2rem 0 1rem;
+    gap: 0.3rem;
+
+}
+
+[id^='929c75c0-2623-015a-2774-5c91b8f28507'] .ac-pushButton {
+    width: fit-content !important;
+    border-radius: 45px;
+    /* border-radius: 6px !; */
+
+    height: 0rem !important;
+
+    size: initial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2px;
+    /* Adjust the spacing as needed */
+    margin-bottom: 5px
+}
+
+[id^='929c75c0-2623-015a-2774-5c91b8f28507'] .ac-pushButton img {
+    max-height: none !important;
+    margin-right: 6px !important;
+}
+
+
+#main_window_actionS1 .ac-actionSet {
+    display: flex !important;
+    flex-direction: row !important;
+    padding: 0 1.2rem 0 1rem;
+    gap: 0.3rem;
+
+}
+
+
+#main_window_actionS2 .ac-actionSet {
+    display: flex !important;
+    flex-direction: row !important;
+    /* padding: 0 1.2rem 0 1rem; */
+    gap: 0.3rem;
+
+
+    flex-wrap: wrap;
+    padding: 0 1.2rem 0rem 1rem;
+
+}
+
+#main_window_actionS3 .ac-actionSet {
+    display: flex !important;
+    flex-direction: row !important;
+    /* padding: 0 1rem 0 1rem; */
+    gap: 0.3rem;
+
+
+    /* flex-wrap: wrap ; */
+    padding: 0 1.2rem 0rem 1rem;
+}
+
+#main_window_actionS4 .ac-actionSet {
+    display: flex;
+    flex-direction: row !important;
+    /* padding: 0 1rem; */
+    gap: 0.3rem;
+
+
+    /* flex-wrap: wrap ; */
+    padding: 0 1.2rem 0rem 1rem;
+}
+
+#main_window_actionS1 .ac-pushButton {
+    width: fit-content !important;
+    border-radius: 45px;
+    /* border-radius: 6px !; */
+
+    height: 0rem !important;
+
+    size: initial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2px;
+    /* Adjust the spacing as needed */
+    margin-bottom: 5px
+}
+
+#main_window_actionS1 .ac-pushButton img {
+    max-height: none !important;
+    margin-right: 6px !important;
+}
+
+#main_window_actionS2 .ac-pushButton {
+    width: fit-content !important;
+    border-radius: 45px;
+    /* border-radius: 6px !; */
+
+    height: 0rem !important;
+
+    size: initial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2px;
+    /* Adjust the spacing as needed */
+    margin-bottom: 5px;
+    /* Adjust the spacing as needed */
+
+
+}
+
+#main_window_actionS2 .ac-pushButton img {
+    max-height: none !important;
+    margin-right: 6px !important;
+}
+
+
+
+#main_window_actionS3 .ac-pushButton {
+    width: fit-content !important;
+    border-radius: 45px;
+    /* border-radius: 6px !; */
+
+    height: 0rem !important;
+
+    size: initial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0 2px 0 2px; */
+    margin-right: 2px;
+    /* Adjust the spacing as needed */
+    margin-bottom: 5px;
+    /* Adjust the spacing as needed */
+
+}
+
+#main_window_actionS3 .ac-pushButton img {
+    max-height: none !important;
+    margin-right: 6px !important;
+}
+
+#main_window_actionS4 .ac-pushButton {
+    width: fit-content !important;
+    border-radius: 45px;
+
+    height: 0rem !important;
+
+    size: initial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-right: 8px; Adjust the spacing as needed */
+    margin-bottom: 6px;
+
+
+}
+
+#main_window_actionS4 .ac-pushButton img {
+    max-height: none !important;
+    margin-right: 6px !important;
+}
+
+#main_window_actionS5 .ac-pushButton {
+    width: fit-content !important;
+    border-radius: 45px;
+    /* border-radius: 6px !; */
+
+    height: 37px !important;
+
+    size: initial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+    /* Adjust the spacing as needed */
+    margin-bottom: 8px;
+    /* Adjust the spacing as needed */
+
+}
+
+#main_window_actionS5 .ac-pushButton img {
+    max-height: none !important;
+    margin-right: 6px !important;
+}
+
+/* css for last transction button */
+
+
+#bal_actionset .ac-actionSet {
+    display: flex !important;
+    flex-direction: row !important;
+    margin: 0 0 0 3px !important;
+    justify-content: center !important;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-bottom: 12px !important;
+    /* padding: 0 1.2rem 0rem 1rem; */
+
+}
+
+#main_window_heading .ac-textRun {
+    font-weight: 400 !important;
+}
+
+#bal_list_description_container {
+    flex: 0 0 100px !important;
+}
+
+/* mini staement css */
+/* #mini_statement_ac{
+    margin : 0 0 0 26px !important;
+} */
+
+#mini_statement_container_columnset_columnDescription {
+    flex: 0 0 100px !important;
+
+}
+
+#mini_statement_data_actionset .ac-pushButton,
+#bal_actionset .ac-pushButton {
+    width: 11rem;
+    height: 2rem;
+    border-radius: 45px;
+
+}
+#card_selection .ac-richTextBlock .ac-textRun{
+    color:white !important;
+}
+[aria-label="Sign In"],
+[aria-label="Sign in"] {
+    border-radius: 45px;
+    width: 19vh;
+    height: 0rem;
+}
+
+#mini_statement_data_actionset .ac-actionSet {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 4px;
+
+}
+
+#mini_statement_data_actionset .ac-actionSet button {
+    width: 100% !important;
+}
+
+#mini_statement_data_container_columnset_description_column {
+    flex: 0 0 100px !important;
+
+}
+
+/* css for images */
+
+
+/* css for investment statement */
+
+
+/*id for investment button */
+#ac_mutual {
+    display: inline block !important;
+    margin-left: 24px !important;
+    /* margin-right:  25px ;  */
+}
+
+#mutualfund_show_textblock ul,
+#mutualfund_hidden_textblock ul,
+#PPF_textblock ul,
+#NationalPensionScheme_textblock ul,
+#FloatingRateSavingsBonds_textblock ul,
+#SovereginGoldBond_textblock ul,
+#DigitalGold_textblock ul {
+    margin: 0 0 0 -20px !important;
+}
+
+
+
+/* Read More button css */
+#showbutton .ac-actionSet,
+#cc_apply_actionset .ac-actionSet,
+#cc_apply_hide_actionset .ac-actionSet,
+#hidebutton .ac-actionSet {
+    align-items: center !important;
+}
+
+#showbutton .ac-pushButton,
+#cc_apply_actionset .ac-pushButton {
+    width: 100px !important;
+    /* margin-left: 100px; */
+    border-radius: 45px;
+    /* border-radius: 6px !; */
+
+}
+
+#hidebutton .ac-pushButton,
+#cc_apply_hide_actionset .ac-pushButton {
+    width: 100px !important;
+    /* margin-left: 100px; */
+    border-radius: 45px !important;
+    /* border-radius: 6px !; */
+
+    /* border:2px solid red !important; */
+}
+
+.ac-anchor {
+    /* text-decoration: none; */
+    text-transform: uppercase !important;
+    /* font-size: 17px !important; */
+    color: #02457a;
+}
+
+
+
+/* digital gold loan css */
+[id^='dfd1bd31-dc82-11ee-bb3a-9061ae6b2c08_ac'] {
+    display: inline !important;
+    margin-left: 20px;
+    margin: right 20px;
+
+}
+
+
+
+[id^='0d02e6dd-dc83-11ee-bb66-9061ae6b2c08_ac'] {
+    display: inline !important;
+    margin-left: 20px;
+    margin: right 20px;
+}
+
+[id^='2a33a868-dc83-11ee-ba85-9061ae6b2c08_ac'] {
+    display: inline !important;
+    margin-left: -5px !important;
+    margin: right 20px;
+}
+
+[id^='478088ef-dc83-11ee-9b6a-9061ae6b2c08_ac'] {
+    display: inline !important;
+    margin-left: -5px !important;
+    margin: right 20px;
+}
+
+[id^='648184ed-dc83-11ee-b900-9061ae6b2c08_ac'] {
+    display: inline !important;
+    margin-left: -5px !important;
+    margin: right 20px;
+}
+
+[id^='780d5597-dc83-11ee-8a57-9061ae6b2c08_ac'] {
+    display: inline !important;
+    margin-left: -5px !important;
+    margin: right 20px;
+}
+
+/* css for one time bot hide and the show  */
+
+.webchat__defaultAvatar {
+    display: none;
+    margin-left: -5px;
+}
+
+.webchat__stacked-layout__avatar-gutter .webchat__defaultAvatar {
+    display: inline-block;
+}
+
+#main_window_heading_container {
+    margin: 0 0 0 16px !important;
+}
+
+/* account check service card changes */
+
+#fa9e6101-0977-0129-52b4-4dbac3559989 .ac-actionSet {
+    display: flex;
+    flex-direction: row !important;
+    gap: 0.2rem;
+
+}
+
+#fa9e6101-0977-0129-52b4-4dbac3559989 .ac-pushButton {
+    border-radius: 45px;
+    /* border-radius: 6px !; */
+
+    width: fit-content;
+    height: 0rem;
+    margin-right: 2px;
+    /* Adjust the spacing as needed */
+    margin-bottom: 5px
+}
+
+#e11b8e8e-54ce-e8ae-973b-9e0857aa97c2 .ac-actionSet {
+    display: flex;
+    flex-direction: row !important;
+    gap: 0.2rem;
+
+}
+
+#e11b8e8e-54ce-e8ae-973b-9e0857aa97c2 .ac-pushButton {
+    border-radius: 45px;
+    /* border-radius: 6px !; */
+
+    width: fit-content;
+    height: 0rem;
+    margin-right: 2px;
+    /* Adjust the spacing as needed */
+    margin-bottom: 5px
+}
+
+[id^='64b31966-9583-6f5a-0aa0-706027967481'] .ac-actionSet {
+    display: flex;
+    flex-direction: row !important;
+    gap: 0.2rem;
+
+
+}
+
+[id^='64b31966-9583-6f5a-0aa0-706027967481'] .ac-pushButton {
+    border-radius: 45px;
+    /* border-radius: 6px !; */
+
+    width: fit-content;
+    height: 0rem;
+    margin-right: 2px;
+    /* Adjust the spacing as needed */
+    margin-bottom: 5px
+}
+
+[id^='504f0d06-bd7d-7b01-c701-a9b4825acde5'] .ac-actionSet {
+    display: flex;
+    flex-direction: row !important;
+    gap: 0.2rem;
+
+    flex-wrap: wrap;
+    /* padding: 0 1.2rem 0 1rem; */
+
+}
+
+[id^='504f0d06-bd7d-7b01-c701-a9b4825acde5'] .ac-pushButton {
+    border-radius: 45px;
+    /* border-radius: 6px !; */
+
+    width: fit-content;
+    height: 0rem;
+    margin-right: 2px;
+    /* Adjust the spacing as needed */
+    margin-bottom: 5px
+}
+
+/*---css for credit card frame */
+#cc_menu_heading .ac-textRun {
+    font-family: Calibri, "Helvetica Neue", Arial, "sans-serif" !important;
+    font-size: 17px !important;
+    color: rgb(2, 69, 122) !important;
+    font-weight: 600 !important;
+    box-sizing: border-box !important;
+    flex: 0 0 auto !important;
+
+}
+
+#fa9e6101-0977-0129-52b4-4dbac355 .ac-actionSet {
+    display: flex;
+    flex-direction: row !important;
+    gap: 0.2rem;
+
+}
+
+#fa9e6101-0977-0129-52b4-4dbac355 .ac-pushButton {
+    border-radius: 45px;
+    /* border-radius: 6px !; */
+
+    width: fit-content;
+    height: 0rem;
+    margin-right: 2px;
+    /* Adjust the spacing as needed */
+    margin-bottom: 5px
+}
+
+#e11b8e8e-54ce-e8ae-973b-9e0857aa .ac-actionSet {
+    display: flex;
+    flex-direction: row !important;
+    gap: 0.2rem;
+    flex-wrap: wrap;
+
+}
+
+#e11b8e8e-54ce-e8ae-973b-9e0857aa .ac-pushButton {
+    border-radius: 45px;
+    /* border-radius: 6px !; */
+
+    width: fit-content;
+    height: 0rem;
+    margin-right: 2px;
+    /* Adjust the spacing as needed */
+    margin-bottom: 5px
+}
+
+[id^='64b31966-9583-6f5a-0aa0-706027967'] .ac-actionSet {
+    display: flex;
+    flex-direction: row !important;
+    gap: 0.2rem;
+    flex-wrap: wrap;
+}
+
+[id^='64b31966-9583-6f5a-0aa0-706027967'] .ac-pushButton {
+    border-radius: 45px;
+    /* border-radius: 6px !; */
+
+    width: fit-content;
+    height: 0rem;
+    margin-right: 2px;
+    /* Adjust the spacing as needed */
+    margin-bottom: 5px
+}
+
+[id^='504f0d06-bd7d-7b01-c701-a9b4825ac'] .ac-actionSet {
+    display: flex;
+    flex-direction: row !important;
+    gap: 0.2rem;
+    flex-wrap: wrap;
+}
+
+[id^='504f0d06-bd7d-7b01-c701-a9b4825ac'] .ac-pushButton {
+    border-radius: 45px;
+    width: fit-content;
+    /* border-radius: 6px !; */
+
+    height: 0rem;
+    margin-right: 2px;
+    /* Adjust the spacing as needed */
+    margin-bottom: 5px
+}
+
+[id^='299392fa-e4de-5d9e-b960-9c5ecdd56'] .ac-actionSet {
+    display: flex;
+    flex-direction: row !important;
+    gap: 0.2rem;
+    flex-wrap: wrap;
+}
+
+[id^='299392fa-e4de-5d9e-b960-9c5ecdd56'] .ac-pushButton {
+    border-radius: 45px;
+    /* border-radius: 6px !; */
+
+    width: fit-content;
+    height: 0rem;
+    margin-right: 2px;
+    /* Adjust the spacing as needed */
+    margin-bottom: 5px
+}
+
+[id^='b11b097b-d54f-873f-457b-e8f7ffad'] .ac-actionSet {
+    display: flex;
+    flex-direction: row !important;
+    gap: 0.2rem;
+    flex-wrap: wrap;
+}
+
+[id^='b11b097b-d54f-873f-457b-e8f7ffad'] .ac-pushButton {
+    border-radius: 45px;
+    /* border-radius: 6px !; */
+
+    width: fit-content;
+    height: 0rem;
+    margin-right: 2px;
+    /* Adjust the spacing as needed */
+    margin-bottom: 5px
+}
+
+/* css for debit card */
+#dc_text_heading .ac-textRun {
+    font-family: Calibri, "Helvetica Neue", Arial, "sans-serif" !important;
+    font-size: 17px !important;
+    color: rgb(2, 69, 122) !important;
+    font-weight: 600 !important;
+    box-sizing: border-box !important;
+    flex: 0 0 auto !important;
+
+}
+
+[id^='350484d1-6c9c-f4b6-fb46-5020fe8566f'] .ac-actionSet {
+    display: flex;
+    flex-direction: row !important;
+    gap: 0.2rem;
+    flex-wrap: wrap;
+}
+
+[id^='350484d1-6c9c-f4b6-fb46-5020fe8566f'] .ac-pushButton {
+    border-radius: 45px;
+    /* border-radius: 6px !; */
+
+    width: fit-content;
+    height: 0rem;
+    margin-right: 2px;
+    /* Adjust the spacing as needed */
+    margin-bottom: 5px
+}
+
+#dc_actionS2 .ac-actionSet {
+    display: flex;
+    flex-direction: row !important;
+    gap: 0.2rem;
+    flex-wrap: wrap;
+
+}
+
+#dc_actionS2 .ac-pushButton {
+    border-radius: 45px;
+    /* border-radius: 6px !; */
+
+    width: fit-content;
+    height: 0rem;
+    margin-right: 2px;
+    /* Adjust the spacing as needed */
+    margin-bottom: 5px
+}
+
+#dc_actionS1 .ac-actionSet {
+    display: flex;
+    flex-direction: row !important;
+    gap: 0.2rem;
+    flex-wrap: wrap;
+}
+
+#dc_actionS1 .ac-pushButton {
+    border-radius: 45px;
+    /* border-radius: 6px !; */
+    width: fit-content;
+    height: 0rem;
+    margin-right: 2px;
+    /* Adjust the spacing as needed */
+    margin-bottom: 5px
+}
+
+#dc_actionS3 .ac-pushButton {
+    border-radius: 45px;
+    /* border-radius: 6px !; */
+    width: fit-content;
+    height: 0rem;
+    margin-right: 2px;
+    /* Adjust the spacing as needed */
+    margin-bottom: 5px
+}
+
+
+
+
+
+
+
+
+/* new css  */
+
+#ac_dc_switch,
+#ac_db_login,
+#ac_pin_change,
+#ac_loan,
+#ac_card_switch,
+#ac_dc_replaceNblock,
+#ac_newpinselection,
+#ac_dc_limit_change,
+#ac_cc_block {
+    /* margin: 22px !important; */
+    margin: 20px 10px 20px 20px !important;
+    border-radius: 15px;
+    /* background: rgb(255, 255, 255); */
+     /* width:25vw; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px -5px 10px -5px, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px;
+
+
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px; */
+
+
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px; */
+}
+#ac_card_switch .ac-textBlock{
+    /* text-shadow:1px 1px 1px lightslategrey !important; */
+}
+
+#ac_dc_action-set .ac-pushButton,
+#ac_db_login_actionset .ac-pushButton,
+#ac_pinchange_actionset .ac-pushButton,
+#ac_loan_actionset .ac-pushButton,
+#ac_cardswitch_actionset .ac-pushButton,
+#ac_dc_RnB_actionset .ac-pushButton,
+#ac_pinselection_actionset .ac-pushButton,
+#ac_cc_block_actionset .ac-pushButton,
+#ac_dc_limit_change_actionset .ac-pushButton {
+    border-radius: 12px;
+    /* border-radius: 6px !; */
+    width: 16vw;
+    height: 0rem;
+
+}
+
+#ac_dc_action-set .ac-actionSet,
+#ac_db_login_actionset .ac-actionSet,
+#ac_pinchange_actionset .ac-actionSet,
+#ac_loan_actionset .ac-actionSet,
+#ac_cardswitch_actionset .ac-actionSet,
+#ac_dc_RnB_actionset .ac-actionSet,
+#ac_pinselection_actionset .ac-actionSet,
+#ac_cc_block_actionset .ac-actionSet,
+#ac_dc_limit_change_actionset .ac-actionSet {
+    align-items: center !important;
+    justify-content: center !important;
+    margin-top: 4px;
+}
+
+#b11b097b-d54f-873f-457b-e8f7ffa .ac-pushButton {
+    border-radius: 12px;
+    /* border-radius: 6px !; */
+    width: fit-content;
+    height: 0rem;
+
+}
+
+#b11b097b-d54f-873f-457b-e8f7ffa .ac-actionSet {
+    flex-direction: row !important;
+    gap: .2rem;
+    /* align-items: center !important; */
+    /* justify-content: center !important; */
+    /* margin-top: 4px; */
+}
+
+.ac-textInput {
+    border-radius: 8px;
+    border: 1px solid grey !important;
+}
+
+.ac-multichoiceInput {
+    padding: 5px !important;
+    border-radius: 8px;
+
+
+}
+
+
+.ac-textInput {
+    /* max-width: 190px; */
+    padding: 4px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
+    outline: none;
+    color: dimgray;
+}
+
+.ac-textInput {
+    animation: justshake 0.3s forwards;
+    /* color: #0063B1; */
+}
+
+/* @keyframes justshake {
+    25% {
+      transform: translateX(5px);
+    }
+  
+    50% {
+      transform: translateX(-5px);
+    }
+  
+    75% {
+      transform: translateX(5px);
+    }
+  
+    100% {
+      transform: translateX-(5px);
+    }
+  } */
+.webchat__icon-button__shade {
+    border-radius: 50% !important;
+    cursor: pointer;
+}
+
+
+[id^='4b89f61b-4e31-a56b-6a36-b509035700af'] {
+    display: none !important;
+    border: 1px solid red !important;
+}
+
+
+
+/* ######################## */
+
+
+/* #ac_transaction_table{
+    margin: -15px !important;
+  } */
+#ac_transaction_table {
+    margin: -14px !important;
+}
+
+#bal_data_ac .ac-container {
+    /* border:1px solid red !important; */
+    width: 15vw;
+    margin: -14px;
+    display: flex;
+    /* justify-content: center !important;
+    align-items: center; */
+}
+#ac_mini_statement_columnset_1 {
+    padding: 9px 4px !important;
+}
+
+#ac_mini_statement_columnset_1,
+#header_row,
+#ac_transaction_tableRow0 {
+    background: linear-gradient(90deg, #001B48 0%, #172B4E 31.6%, #0052AB 100%) !important;
+    border-radius: 10px 10px 0px 0px !important;
+    margin-top: -3px !important;
+    /* border: 1px solid red; */
+}
+
+#ac_mini_statement_column_1, #ac_mini_statement_column_2, #ac_mini_statement_column_3, #ac_mini_statement_textblock_8{
+    /* padding: 5px !important; */
+    color: white !important;
+}
+#ac_mini_statement_column_1 p, #ac_mini_statement_column_2 p, #ac_mini_statement_column_3 p, #ac_mini_statement_textblock_8 p{
+    /* padding: 5px !important; */
+    color: white !important;
+}
+
+div[role="row"]:not(:last-of-type) {
+    border-bottom: 1px solid rgb(219, 216, 216);
+    /* Set the border style */
+    padding: 6px !important;
+}
+div[role="row"]:nth-of-type(even) {
+    background-color: white;
+}
+
+div[role="row"]:nth-of-type(odd) {
+    /* background-color: rgb(240, 240, 240); */
+    background-color: #E5EFFB;
+}
+
+div[role="cell"][cell="debit"   ] {
+    background-color: lightblue;
+}
+
+div[role="row"] {
+    /* Set the border style */
+    padding: 6px !important;
+    
+}
+div[role="row"] p{
+    font-size: 12px;
+}
+
+#mini_statement_table {
+    border: 1px solid #fdfafa;
+    border-radius: 8px;
+    margin: 0px -14px 0px -14px !important;
+    /* width: 25vw; */
+}
+
+#mini_statement_date,
+#current_date {
+    text-align: center !important;
+}
+#mutualfund_show_actionset .ac-actionSet{
+    margin-left:38px;
+}
+#bal_card_columnset {
+    text-align: center !important;
+    
+    align-items: start !important;
+
+}
+
+/* Target .webchat__bubble__content only inside these specific IDs */
+/* Apply styles only to .webchat__bubble__content inside specific parent IDs */
+ #ac_cc_block  .webchat__bubble:not(.webchat__bubble--from-user) ,
+#ac_dc_limit_change .webchat__bubble:not(.webchat__bubble--from-user) ,
+#ac_newpinselection .webchat__bubble:not(.webchat__bubble--from-user) ,
+#ac_dc_replaceNblock .webchat__bubble:not(.webchat__bubble--from-user) ,
+#ac_card_switch .webchat__bubble:not(.webchat__bubble--from-user) ,
+#ac_loan .webchat__bubble:not(.webchat__bubble--from-user)  {
+    margin: 0 !important; /* Removes any default margin */
+    max-width: 25vw !important; /* Sets a maximum width of 25% of viewport width */
+    border: 1px solid #e8e8ec !important; /* Sets a border with color */
+    box-shadow: 0 4px 8px 1px rgba(0, 0, 0, 0.1); /* Adds shadow effect */
+    transform-style: preserve-3d; /* Ensures 3D transformations are preserved */
+    transition: transform 0.6s; /* Smooth transition for transform changes */
+    border: 1px solid red !important;
+    background: none !important;
+    width: 30vw !important;
+}
+[id^="page_"],
+#ac_cc_block,
+#ac_dc_limit_change,
+#ac_newpinselection,
+#ac_dc_replaceNblock,
+#ac_card_switch, 
+#ac_loan {
+    width:38vh !important;
+    padding: 11px !important;
+    margin: 0px !important;
+    box-shadow: none;
+    border: 1px solid #e8e8ec !important;
+    box-shadow: 0 4px 8px 1px rgba(228, 225, 225, 0.1); /* Adds shadow effect */
+    /* background-color: #ddedee !important; */
+    background: linear-gradient(90deg, #0C488F 46%, #0B3E7B 100%);
+    
+}
+/*  */
+
+#ac_card_switch .ac-textBlock {
+    color:white !important;
+}
+#SCard .ac-richTextBlock span{
+    color:white !important;
+}
+#ac_cardBlock_title p{
+    color:white !important;
+}
+#cc_selection .ac-richTextBlock span{
+    color:white !important;
+}
+#old_pin .ac-richTextBlock span{
+    color:white !important;
+}
+#new_pin .ac-richTextBlock span{
+    color:white !important;
+}
+#ac_cardstatus_textblock{
+    color:white !important;
+}
+#ac_cardswitch_title{
+    color:white !important;
+}
+#ac_cardswitch_columnset {
+    flex-direction: column !important;
+}
+#ac_dc_limit_change_facts .ac-fact-title .ac-textBlock{
+    color: white !important;
+}
+#ac_dc_limit_change_facts .ac-fact-value .ac-textBlock{
+    color: white !important;
+}
+#limit_selector .ac-richTextBlock span{
+    color:white !important;
+}
+.ac-input-container select{
+    background-color: #082D5B !important;
+    color: white !important;
+    border : #ffffff !important;
+}
+#ac_card_switch #ac_cardswitch_title p{
+    font-size:17px;
+}
+.ac-input-container input{
+    background-color: #082D5B !important;
+    color: white !important;
+    border : #ffffff !important;
+}
+#ac_loan_title span{
+    font-size: 16px !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+}
+#ac_loan .ac-columnSet .ac-textRun, #ac_loan_cs2_c2 label{
+color:white !important;
+}
+#ac_loan_cs1_text,#ac_loan_cs2{
+    margin-top:-23px !important;
+}
+#ac_loan_cs3{
+    margin-top:32px !important;
+}
+#ac_loan_actionset{
+    margin-top:-14px !important;
+}
+#ac_dc_limit_change_actionset,
+#ac_pinselection_actionset,
+#ac_dc_RnB_actionset,
+#ac_cardswitch_actionset {
+    display: flex !important;
+    justify-content: end !important;
+}
+
+#ac_cardswitch_actionset button {
+    width: 100% !important;
+}
+
+.ac-horizontal-separator {
+    border-bottom: none !important;
+}
+[id^="switch_on_off_card_valid_from_text"]{
+margin-left:20px !important;
+}
+[id^="switch_on_off_card_valid_thru_text"]{
+    text-align:center !important;
+    margin-left:-11px !important;
+}
+#ac_dc_limit_change_facts {
+    /* display: flex !important; */
+    margin: none !important;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 9px !important;
+}
+#merchent_flow_choices_set3 .ac-pushButton,
+#merchent_flow_choices_set2 .ac-pushButton,
+#merchent_flow_choices_set1 .ac-pushButton,
+#ac_investment_options_choices_set4  .ac-pushButton,
+#ac_investment_options_choices_set3  .ac-pushButton,
+#ac_investment_options_choices_set2 .ac-pushButton,
+#ac_investment_options_choices_set1 .ac-pushButton,
+#ac_cheque_order_actions  .ac-pushButton,
+#kyc_details_actions .ac-pushButton,
+#ac_mini_statement_actionSetButtons .ac-pushButton,
+#account_options_actionset3 .ac-pushButton ,#account_options_actionset2 .ac-pushButton,
+#account_options_actionset1 .ac-pushButton,
+#account_options_actionset0 .ac-pushButton {
+    display: flex !important;
+    flex-direction: row !important;
+    border-radius: 22px !important;
+    width: auto !important;
+    justify-content: flex-start !important;
+    padding: 5px 18px !important;
+}
+#merchent_flow_choices_set3 .ac-actionSet,
+#merchent_flow_choices_set2 .ac-actionSet,
+#merchent_flow_choices_set1 .ac-actionSet,
+#ac_investment_options_choices_set4 .ac-actionSet, 
+#ac_investment_options_choices_set3 .ac-actionSet, 
+#ac_investment_options_choices_set2 .ac-actionSet, 
+#ac_investment_options_choices_set1  .ac-actionSet, 
+#ac_cheque_order_actions .ac-actionSet,
+#kyc_details_actions .ac-actionSet,
+#ac_mini_statement_actionSetButtons .ac-actionSet,
+#account_options_actionset3 .ac-actionSet,
+#account_options_actionset2 .ac-actionSet,
+#account_options_actionset1 .ac-actionSet,
+#account_options_actionset0 .ac-actionSet {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    gap: 3px;
+}
+
+#mini_statement_data_actionset+div>button {
+    /* Add your styles here */
+    margin-top: 20px;
+    background-color: #e0e0e0 !important;
+    padding: 15px;
+    border-radius: 5px !important;
+}
+#ac_mini_statement_actionset1  .ac-pushButton,  
+#pin_change_complete_actionset .ac-pushButton,
+#cc_block_1_actionset .ac-pushButton,
+#replace_upgrade_debit_step3_failed_actionset .ac-pushButton,
+#dc_limit_change2_actionset  .ac-pushButton,
+#dc_pin_change_end_actionset .ac-pushButton,
+#block_debit_step3_actionset .ac-pushButton,
+#block_replace_debit_step3_actionset .ac-pushButton,
+#card_limit_report_actionset .ac-pushButton,
+#outstanding_cc_limit_actionset .ac-pushButton,
+#billed_tran_actionset .ac-pushButton,
+#emi_process_submit_actionset  .ac-pushButton,
+#emi_process_choices_set1 .ac-pushButton,
+#unbilled_tran_actionset .ac-pushButton,
+#cc_dueDate_actionset .ac-pushButton,
+#card_avaliable_limit_actionset .ac-pushButton,
+#ac_kyc_actionset .ac-pushButton,
+#debit_switch_step3_actionset  .ac-pushButton,
+#DigitalGold_actionset .ac-pushButton,
+#mutualfund_hidden_actionset .ac-pushButton,
+#mutualfund_show_actionset .ac-pushButton,
+#FloatingRateSavingsBonds_actionset .ac-pushButton,
+#NationalPensionScheme_actionset  .ac-pushButton,
+#SovereginGoldBond_actionset .ac-pushButton,
+#mini_statement_data_actionset0  .ac-pushButton,
+#mini_statement_data_actionset1 .ac-pushButton{
+ display: flex !important;
+ flex-direction: row !important;
+ width:100%;
+ padding: 8px;
+ border-radius: 25px !important;
+}
+#ac_mini_statement_actionset1 .ac-actionSet,
+#pin_change_complete_actionset .ac-actionSet,
+#cc_block_1_actionset .ac-actionSet,
+#replace_upgrade_debit_step3_failed_actionset  .ac-actionSet,
+#dc_limit_change2_actionset .ac-actionSet,
+#dc_pin_change_end_actionset .ac-actionSet,
+#block_debit_step3_actionset .ac-actionSet, 
+#block_replace_debit_step3_actionset .ac-actionSet,
+#card_limit_report_actionset .ac-actionSet,
+#outstanding_cc_limit_actionset .ac-actionSet,
+#billed_tran_actionset .ac-actionSet,
+#emi_process_submit_actionset .ac-actionSet,
+#emi_process_choices_set1  .ac-actionSet,
+#unbilled_tran_actionset  .ac-actionSet, 
+#cc_dueDate_actionset .ac-actionSet,
+#card_avaliable_limit_actionset .ac-actionSet,
+#ac_kyc_actionset .ac-actionSet,
+#debit_switch_step3_actionset .ac-actionSet,
+#DigitalGold_actionset .ac-actionSet,
+#mutualfund_hidden_actionset .ac-actionSet,
+#mutualfund_show_actionset .ac-actionSet,
+#FloatingRateSavingsBonds_actionset .ac-actionSet,
+#NationalPensionScheme_actionset .ac-actionSet,
+#SovereginGoldBond_actionset  .ac-actionSet,
+#mini_statement_data_actionset0 .ac-actionSet,
+#mini_statement_data_actionset1 .ac-actionSet{
+    display: flex !important;
+    flex-direction: row !important;
+    width:100%;
+    gap:2px;
+}
+
+
+.webchat__render-markdown.webchat__render-markdown--adaptive-cards>*:first-child{
+    text-wrap: pretty !important;
+}
+
+
+/* welcome msg */
+#main_window_ac{
+        padding: 5px !important;
+        margin: 0px;
+        border-radius: 5px !important;
+        margin-left: -18px !important;
+}
+#main_window_ac .ac-container{
+    border-radius: 12px !important;
+}
+
+#ac_hidden_report {
+    /* background: #ddedee !important; */
+    background: rgb(255, 255, 255) !important;
+}
+#ac_dc_RnB_actionset .ac-pushButton ,
+#ac_dc_limit_change_actionset .ac-pushButton {
+    width: auto;
+}
+
+[id^="switch_on_off_card_block_column_08"]{
+    margin-bottom:9px !important;
+}
+#ac_mini_statement_column_2 {
+/* width: 79px !important; */
+margin-left: 47px !important;
+
+}
+
+
+#ac_mini_statement_container_3{
+    /* border: 1px solid red !important; */
+    border: 1px solid #e4e0e0 !important;
+    margin-top: -8px !important;
+    border-radius: 9px !important;
+    width:auto;
+}
+#ac_mini_statement_actionset1 .ac-actionSet{
+    margin-bottom:2vh;
+}
+#report_container{
+    background: none !important;
+}
+
+.webchat__adaptive-card-renderer * {
+    box-sizing: border-box;
+    font-family:Roboto, Arial, Helvetica, sans-serif !important;
+}
+
+#ac_kyc_confirm_container_title p{
+  font-size: 13px;
+}
+
+#limit_selector input{
+    height: 5vh !important;
+    border: 1px solid grey !important;
+    border-radius: 9px !important;
+}
+
+#ac_transaction_tableRow0 p {
+   color: white !important;
+}
+
+[id^="ac_mini_statement_column_12_"]:nth-child(odd) 
+{
+  /* background-color: #bbd1e84f !important; Light background for odd cells */
+  background-image:none !important;
+  padding:0px !important;
+  width: auto !important;
+  /* border-radius: 12px !important;
+  padding:5px !important;
+  color: blue !important; */
+} 
+
+[id^="ac_mini_statement_textblock_15_"]:nth-child(odd) p{
+    color: white !important;
+}
+[id^="ac_mini_statement_textblock_15_"]:nth-child(odd) 
+{
+  background-color: #3982D2 !important; /* Light background for odd cells */
+  background-image:none !important;
+  border-radius: 12px !important;
+  padding:2px !important;
+  text-align: center !important;
+  color:white !important;
+}
+[id^="ac_mini_statement_textblock_15_"]:nth-child(odd)  p{
+    color:white !important;
+    font-size: 12px;
+    width: auto !important;
+
+}
+[id^="ac_mini_statement_textblock_15_"]:nth-child(even) 
+{
+  background-color: #ffffff !important; /* White background for even cells */
+  background-image:none !important;
+  padding:5px !important;
+  width: auto !important;
+  text-align: center;
+}
+
+[id^="ac_mini_statement_textblock_13_"]:nth-child(even) p{
+    font-size: 12px !important;
+    color: black !important;
+}
+
+#ac_mini_statement_container_3 p{
+    font-size: 12px !important;
+  
+    /* border: 1px solid red; */
+}
+
+[id^="ac_mini_statement_columnset_4_"]:nth-of-type(odd){
+    border-bottom: 1px solid #c5bfbf !important;
+    /* margin: -4px !important; */
+    justify-content: center !important;
+    display: flex !important;
+    align-items: center;
+    margin-top: -8px !important;
+    background-color: white !important;
+}
+[id^="ac_mini_statement_columnset_4_"]:nth-of-type(even){
+    background-color: #e5effb !important;
+}
+[id^="ac_mini_statement_columnset_4_"]:nth-child(odd) p{
+    color: black !important;
+}
+#ac_mini_statement_container_3 .ac-columnSet[id^="ac_mini_statement_columnset_4_0"]:nth-of-type(odd+1){
+    background-color: white !important;
+}
+[id^="ac_mini_statement_column_10_"]:nth-child(odd){
+  margin-left: 3px !important;
+}
+
+#ac_mini_statement_container_3 .ac-columnSet:nth-child(odd) p{
+    /* color: #0d0231 !important; */
+    /* background-color: #f0f0f0 !important; Light background color for odd rows */
+}
+
+#ac_mini_statement_container_3 .ac-columnSet:nth-child(even) {
+    background-color: #963636 !important; /* White background color for even rows */
+}
+.ac-container .ac-columnSet{
+    height:5vh !important;
+}
+#ac_mini_statement{
+    padding:6px !important;
+}
+#ac_dc_replaceNblock .ac-textBlock p{
+    color:white !important;
+}
+
+#ac_dc_RnB_choiceset .ac-richTextBlock span{
+    color:white !important;
+}
+
+#ac_dc_RnB_pin .ac-richTextBlock span{
+    color:white !important;
+}
+
+#ac_cc_block #ac_cardBlock_title p{
+    color:white !important;
+}
+#ac_switch_card{
+    background-color:#0e498e !important;
+    width: 18.5rem !important;
+}
+#ac_switch_card #debit_switch_title{
+    color:white !important;
+}
+#debit_switch_card_choice .ac-richTextBlock span{
+    color:white !important;
+}
+.webchat--css-endwr-12hch8g.webchat__adaptive-card-renderer .ac-pushButton.style-positive {
+    background-color: #ffffff !important;
+    color: #082d5b !important;
+    border-radius: 20px !important;
+    height:1.7rem !important;
+}
+/* Zebra striping */
+#ac_mini_statement_container_3 .ac-columnSet[id^="ac_mini_statement_columnset_4_0"]:nth-of-type(odd) {
+    background-color: #ffffff; /* Light gray for odd rows */
+}
+
+#ac_mini_statement_container_3 .ac-columnSet[id^="ac_mini_statement_columnset_4_"]:nth-of-type(even) {
+    background-color: rgb(229 241 248 / 22%); /* White for even rows */
+}
+
+#ac_mini_statement_container_3 .ac-textBlock [id^="ac_mini_statement_textblock_type_15_"] p[data-type="debit"] {
+    background-color: red; /* Red for debit */
+}
+
+#ac_mini_statement_container_3 [id^="ac_mini_statement_textblock_type_15_"] p[data-type="credit"] {
+    background-color: #0056B3; /* Blue for credit */
+}
+
+
+#ac_transaction_tableCell_textBlock03{
+    width: fit-content !important;
+    background: #d7f0f880 !important;
+    border-radius: 21px !important;
+    padding: 0px 8px !important;
+}
+
+[id^="ac_mini_statement_column_12_"]:nth-of-type(odd) .ac-textBlock p{
+    /* text-align: center !important; */
+    color: white !important;
+}
+#bal_data_ac div[role="row"]:nth-child(n+2) .ac-container:nth-child(3) .ac-textBlock {
+    width: fit-content !important;
+    background: #3982D2 !important;
+    border-radius: 21px !important;
+    padding: 0px 8px !important;
+}
+
+#bal_data_ac div[role="row"]:nth-child(n+2) .ac-container:nth-child(3) .ac-textBlock p{
+   color: white !important;
+}
+
+
+#bal_data_ac div[role="row"]:nth-child(n+2) .ac-container .ac-textBlock p {
+   color: black !important;
+}
+
+
+
+.webchat__adaptive-card-renderer .ac-pushButton[aria-pressed="true"] {
+    background: rgb(12 61 121) !important;
+    /* border-color: #0063B1; */
+    color: White;
+
+}
+.web-chat {
+    background: url('chatbot-bg.jpg');
+    background-size: cover;
+    height: 74.5vh;
+    width: 32.5rem;
+    position: relative;
+  }
+  
+  .web-chat::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.95); /* Set opacity to 5% */
+  }
+  .plus-icon {
+    transition: transform 0.3s ease; /* Smooth transition */
+  }
+  
+  .rotate {
+    transform: rotate(45deg); /* Rotate by 45 degrees */
+  }
+  .ac-actionSet .ac-pushButton{
+    background-color:white !important;
+    color:#082d5b !important;
+    height:1.5rem !important;
+    border-radius:10px !important;
+    width: 8rem !important;
+  }
+  .ac-pushButton[aria-pressed="true"]{
+    color:white !important;
+  }

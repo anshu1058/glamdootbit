@@ -1,0 +1,194 @@
+.toggleButtonLeft{
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px
+}
+.css-13cymwt-control {
+    /* all: unset !important; */
+    /* Optional: Reset specific properties if necessary */
+    margin-top: -10px !important;
+    border: none !important;
+    border-color: transparent !important;
+}
+.css-t3ipsp-control{
+    margin-top: -10px !important;
+    border: none !important;
+    border-color: none !important;
+    box-shadow: none !important;
+}
+.css-4xgw5l-IndicatorsContainer2{
+    margin-right: -18px;
+}
+.css-w9q2zk-Input2{
+width: 85px;
+}
+
+
+.css-1u9des2-indicatorSeparator{
+    display: none !important;
+}
+.css-1dimb5e-singleValue,
+.css-1jj59y3-MenuList2{
+  color: black !important;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500 !important;
+  font-size: 0.875rem !important;
+}
+.css-1jj59y3-MenuList2{
+    max-height: 50vh !important;
+}
+
+.select-custom{
+    height: 38px !important;
+}
+.css-1nmdiq5-menu{
+    width: 150px !important;
+    /* height: 50vh; */
+}
+.css-4xgw5l-IndicatorsContainer2{
+display: none;
+}
+.toggleButtonRight{
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px
+}
+.iocontianerbox{
+    margin-top: 0px;
+    border-radius: 4px;
+}
+.iocontainerbutton{
+    height: 25px;
+    color: black;
+    margin: 9px;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 12px;
+    padding: 2.5px 12px;
+    transition: background-color 0.3s, color 0.3s;
+    border: 2px solid red;
+}
+button.btn, button.resetbtn {
+    color: #001B48;
+    background-color: white;
+    border: none;
+    font-size: 12px; /* Using rem for font size */
+    transition: background-color 0.3s, color 0.3s;
+    padding: 0.5em 0.5em; /* Using em for padding */
+    box-shadow: 1px 5px 14px 0px #c4c0c0;
+    border-radius: 5px;
+    width: 8vw; /* Using vw for width */
+    font-weight: 700;
+    cursor: pointer;
+    margin-right: 0.25em; /* Using em for margin-right */
+}
+
+button.resetbtn {
+    color: black;
+    font-size: 12px;
+    /* padding: 10px 20px; */
+    margin-right: 4px;
+    width: 8vw;
+    font-weight: 700;
+    /* border: 1px solid red; */
+}
+
+@media (max-width: 1024px) {
+    button.btn, button.resetbtn {
+        font-size:14px; /* Slightly smaller font size for tablets */
+        /* padding: 0.5em 1em;  */
+        width: 13vw; /* Adjust width */
+    }
+}
+
+@media (max-width: 768px) {
+    button.btn, button.resetbtn {
+        font-size: 0.9rem; /* Smaller font size for smaller screens */
+        padding: 0.5em 1.25em; /* Adjust padding for smaller screens */
+        width: 20vw; /* Increase width for better touch targets */
+    }
+}
+
+@media (max-width: 640px) {
+    button.btn, button.resetbtn {
+        font-size: 0.85rem; /* Smaller font size for larger mobile devices */
+        padding: 0.45em 1em; /* Adjust padding for larger mobile devices */
+        width: 25vw; /* Increase width for better touch targets */
+    }
+}
+
+@media (max-width: 480px) {
+    button.btn, button.resetbtn {
+        font-size: 0.8rem; /* Even smaller font size for very small screens */
+        padding: 0.4em 1em; /* Further adjust padding for very small screens */
+        width: 30vw; /* Increase width for better touch targets */
+    }
+}
+
+@media (max-width: 320px) {
+    button.btn, button.resetbtn {
+        font-size: 0.75rem; /* Even smaller font size for very small screens */
+        padding: 0.35em 0.75em; /* Further adjust padding for very small screens */
+        width: 35vw; /* Increase width for better touch targets */
+    }
+}
+
+div.button_group {
+    /* position: absolute; */
+    z-index: 10;
+    width: 50%; /* Default width for large screens */
+    display: flex;
+    justify-content: center;
+    margin-top: 0em; /* Default margin */
+    top: 0; /* Position the button group relative to the parent */
+    padding: 0 1em; /* Add padding for smaller screens */
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+@media (max-width: 1024px) {
+    /* Styles for screens up to 1024px */
+    div.button_group {
+        width: 100%; /* Full width for screens up to 1024px */
+        margin-top: 0; 
+    }
+}
+
+@media (max-width: 600px) {
+    /* Styles for screens up to 600px */
+    div.button_group {
+        width: 100%; /* Width for small screens */
+        margin-top: 0; /* Adjust margin for small screens */
+    }
+}
+@media (min-width: 960px) and (max-width: 1279px){
+    div.button_group {
+        width: 50%; /* Width for small screens */
+        margin-top: 0; /* Adjust margin for small screens */
+    }
+  }
+  @media  (min-width: 900px)and (max-width: 960px){
+    div.button_group {
+        width: 50%; /* Width for small screens */
+        margin-top: 0; /* Adjust margin for small screens */
+        /* border:2px solid red */
+    }
+  }
+  
+  @media (min-width: 960px) and (max-width: 1279px) {
+    div.button_group {
+        width: 50%; /* Width for small screens */
+        margin-top: 0; /* Adjust margin for small screens */
+    }
+  }
+
+  .tab {
+    --r: 40px; /* control the radius */
+  
+  border: var(--r) solid #0000;
+  border-bottom: 0;
+  border-radius: calc(2 * var(--r)) calc(2 * var(--r)) 0 0;
+  mask:
+  radial-gradient(100% 100% at 0 0, #0000 98%, #000) 0 100% / var(--r) var(--r),
+  radial-gradient(100% 100% at 100% 0, #0000 98%, #000) 100% 100% / var(--r) var(--r),
+  linear-gradient(#000 0 0) padding-box;
+  mask-repeat: no-repeat;
+  background: linear-gradient(60deg, #BD5532, #601848) border-box;
+  } 

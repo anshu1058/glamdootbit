@@ -1,0 +1,27 @@
+.slider .slick-prev, .slick-next {
+    color: blue;
+    background: grey !important;
+    border-radius: 50% !important;
+    z-index: 10000;
+}
+.slider .slick-prev{
+left: -10px;
+}
+
+.slider .slick-next{
+    right:-16px
+}
+.slider{
+    border: 1px soid red;
+}
+
+.slider .slick-slide {
+    /* display: none;
+    float: left; */
+    height: 21vh;
+    /* min-height: 1px; */
+}
+
+.slider .slick-track{
+    height: 21vh !important;
+}

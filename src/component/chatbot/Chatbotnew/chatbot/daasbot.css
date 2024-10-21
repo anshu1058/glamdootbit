@@ -1,0 +1,237 @@
+#webchat1 [role="complementary"] {
+    border-radius: 10px !important;
+}
+
+/*css for bot background border  */
+#webchat1 {
+    /* background-image: {}; */
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+    border-bottom-left-radius: 30px !important;
+    border-bottom-right-radius: 30px !important;
+}
+
+/*css for user text styles */
+#webchat1 .webchat__bubble__content {
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+    border-bottom-left-radius: 15px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+#webchat1 .webchat__text-content__markdown {
+    height: fit-content;
+    color: #242424 !important;
+    width: fit-content;
+    background: #ddf2fd !important;
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 15px !important;
+}
+
+#webchat1 .webchat__text-content__markdown p {
+    margin: 5px 39px 5px 5px !important;
+    text-align: left !important;
+    padding: 5px !important;
+}
+
+/* css for hide the icon of input box */
+#webchat1 .webchat--css-gevrg-1r0ige7 {
+    display: none !important;
+}
+
+#webchat1 [title="Upload file"] {
+    display: none !important;
+}
+
+#webchat1 [aria-label="Message input box"] {
+    margin: 0 0 0 -35px !important;
+    color: #0056b3;
+}
+
+/* bot height and width */
+/* .newbot {
+    height: 85vh;
+    width: 33vw;
+  } */
+
+#webchat1 .ac-pushButton div {
+    font-weight: 60 !important;
+}
+
+#webchat1 .webchat__suggested-action {
+    border-radius: 10px;
+    height: 28px;
+}
+
+#webchat1 .webchat__send-box .webchat__send-box__main {
+    border: 1px solid darkgrey;
+    border-radius: 25px;
+    height: 6vh;
+    margin: 5px;
+}
+
+#webchat1 .webchat__suggested-actions {
+    margin-left: 0px;
+    background: none;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.react-film--css-fnorf-txtskt .react-film__filmstrip .react-film__filmstrip__list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+[aria-label^="Sign in"] {
+    border-radius: 45px;
+    width: fit-content;
+}
+
+#webchat1 .webchat__stacked-layout__attachment {
+    width: 33vw;
+    margin: 0 0 0 -11px;
+}
+
+/*---suggested button hover css ---*/
+#webchat1 .webchat__suggested-actions__button {
+    appearance: none;
+    background-color: transparent;
+    border: 1.5px solid !important;
+    /* border-radius: 0.9375em; */
+    box-sizing: border-box;
+    color: #314ea0;
+    cursor: pointer;
+    display: inline-block;
+    /* font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; */
+    /* font-size: 16px; */
+    /* font-weight: 600; */
+    line-height: normal;
+    /* margin: 0; */
+    /* min-height: 3.75em; */
+    /* min-width: 0; */
+    /* outline: none; */
+    /* padding: 1em 2.3em; */
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+    border-radius: 45px !important;
+}
+
+#webchat1 .webchat__suggested-actions__button:disabled {
+    pointer-events: none;
+}
+
+#webchat1 .webchat__suggested-actions__button:hover {
+    color: #fff;
+    background-color: #167bf5;
+}
+
+#webchat1 .webchat__suggested-actions__button {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+/*---button hover css ---*/
+#webchat1 .ac-pushButton {
+    appearance: none;
+    background-color: transparent;
+    border: 0.125em solid #0056b3;
+    border-radius: 45px !important;
+    box-sizing: border-box;
+    color: #314ea0;
+    cursor: pointer;
+    display: inline-block;
+    /* font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; */
+    /* font-size: 16px; */
+    font-weight: 300 !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    line-height: normal;
+    /* margin: 0; */
+    /* min-height: 3.75em; */
+    /* min-width: 0; */
+    /* outline: none; */
+    /* padding: 1em 2.3em; */
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+}
+
+#webchat1 .ac-pushButton:disabled {
+    pointer-events: none;
+}
+
+#webchat1 .ac-pushButton:hover {
+    color: black;
+    background-color: #167bf5;
+
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px; */
+    /* transform: translateY(-2px); */
+}
+
+#webchat1 .ac-pushButton:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+#webchat1 .ac-adaptiveCard {
+    /* margin: 22px !important; */
+    margin: 20px 10px 20px 20px !important;
+    border-radius: 15px;
+    background: rgb(255, 255, 255);
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px -5px 10px -5px,
+        rgba(0, 0, 0, 0.3) 0px 18px 26px -18px;
+
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px; */
+
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px; */
+}
+
+#webchat1 .webchat__bubble__content {
+    border-width: 0px !important;
+}
+
+#webchat .ac-anchor {
+    /* text-decoration: none; */
+    text-transform: uppercase !important;
+    /* font-size: 17px !important; */
+    color: #02457a;
+}
+
+#webchat .webchat__defaultAvatar {
+    display: none;
+    margin-left: -5px;
+}
+
+#webchat .webchat__stacked-layout__avatar-gutter .webchat__defaultAvatar {
+    display: inline-block;
+}
+
+#nick_name input,
+#email input,
+#age input,
+#username input,
+#pass input {
+    height: 40px
+}
+
+#webchat1 .ac-adaptiveCard {
+    gap: 10px
+}
+
+#webchat1 .webchat__text-content__markdown  li{
+    margin: 0 25px 0 -13px;
+    text-align: left;
+}

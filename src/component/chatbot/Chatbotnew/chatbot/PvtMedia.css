@@ -1,0 +1,329 @@
+
+
+/* css for mobile devices */
+@media  only screen and (min-width: 275px) and (max-width:386px){
+      
+    .newOLbot {
+        height: 85vh;
+        width: 100%;
+    }
+    #bal_actionset .ac-actionSet{
+        flex-wrap: wrap !important;
+    }
+    #webchat  .webchat__activity-status--slotted {
+       margin: 0 0 0 30px !important;
+    }
+
+    #main_window_actionS1 .ac-actionSet,
+    #main_window_actionS4 .ac-actionSet,
+
+    #main_window_actionS3 .ac-actionSet,
+    [id^='929c75c0-2623-015a-2774-5c91b8f28507'] .ac-actionSet,
+    #fa9e6101-0977-0129-52b4-4dbac3559989 .ac-actionSet,
+    #e11b8e8e-54ce-e8ae-973b-9e0857aa97c2 .ac-actionSet,
+    #fa9e6101-0977-0129-52b4-4dbac355 .ac-actionSet
+    {
+        flex-wrap: wrap;
+    }
+    #bal_list_date_column{
+        flex: 0 0 auto !important;
+    }
+    #bal_list_amount_container{
+        flex: 0 0 auto !important;
+            
+    }
+    #bal_list_type_container{
+        flex: 0 0 auto !important;
+
+
+    }
+    #bal_list_description_container{
+        flex: 0 0 auto !important;
+
+    }
+    /* responsive for mini statement */
+    #mini_statement_ac{
+        margin : 0 0 0 5px !important;
+    }
+    #mini_statement_container_columnset_columnDate{
+        flex: 0 0 auto !important;
+
+    }
+    #mini_statement_container_columnset_columnDescription{
+        flex: 0 0 auto !important;
+
+    }
+    #mini_statement_container_columnset_columnAmount{
+        flex: 0 0 auto !important;
+
+    }
+    #mini_statement_container_columnset_columnType{
+        flex: 0 -1 auto !important;
+
+    }
+    #mini_statement_data_container_columnset_date_column{
+        flex: 0 0 auto !important;
+
+    }
+    #mini_statement_data_container_columnset_description_column{
+        flex: 0 0 auto !important;
+
+    }
+    #mini_statement_data_container_columnset_amount_column{
+        flex: 0 0 auto !important;
+
+    }
+    #mini_statement_data_container_columnset_type_column{
+        flex: 0 -1 auto !important;
+
+    }
+
+    /*other css */
+    .webchat__suggested-actions {
+        margin-left: 0;
+    }
+
+    #webchat .ac-pushButton div {
+        font-weight: 400 !important;
+    }
+
+    #webchat .webchat__send-box .webchat__send-box__main {
+        border: 1px solid darkgrey;
+        border-radius: 5px;
+        height: 8vh;
+        margin: 5px;
+    }
+
+    #webchat .webchat__suggested-actions {
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    #webchat .webchat__defaultAvatar--fromUser .webchat__imageAvatar__image > img {
+        width: 200%;
+    }
+
+    #webchat .webchat__imageAvatar__image > img {
+        width: 120%;
+    }
+
+    #webchat .webchat__initialsAvatar:not(.webchat__initialsAvatar--fromUser) {
+        width: 40px;
+        height: 46px;
+    }
+
+    [aria-label^="Sign in"] {
+        border-radius: 25px;
+        width: fit-content;
+    }
+
+    #webchat .webchat__stacked-layout__attachment {
+        width: 100vw;
+        margin: 0 0 0 -5px;
+    }
+    #webchat .webchat__send-box .webchat__send-box__main {
+        border: 1px solid darkgrey;
+        border-radius: 25px;
+        height: 6vh;
+        margin: 5px;
+    }
+    
+    /* Add more mobile-specific styles as needed */
+
+
+}
+
+/* Mobile Devices */
+@media  only screen and (min-width: 387px) and (max-width:500px){
+    
+    .newOLbot {
+        height: 83.5vh;
+        width: 100%;
+    }
+    #webchat  .webchat__activity-status--slotted {
+       margin: 0 0 0 30px !important;
+    }
+    [id^='350484d1-6c9c-f4b6-fb46-5020fe8566f5'] .ac-actionSet,
+
+    #main_window_actionS1 .ac-actionSet,
+    #main_window_actionS2 .ac-actionSet,
+    #main_window_actionS3 .ac-actionSet,
+    #main_window_actionS4 .ac-actionSet,
+
+    [id^='929c75c0-2623-015a-2774-5c91b8f28507'] .ac-actionSet,
+    #fa9e6101-0977-0129-52b4-4dbac3559989 .ac-actionSet,
+    #e11b8e8e-54ce-e8ae-973b-9e0857aa97c2 .ac-actionSet,
+    #fa9e6101-0977-0129-52b4-4dbac355 .ac-actionSet
+    {
+        /* flex-wrap: wrap;  */
+           gap: 0.1rem;
+
+           
+    }
+    /* balance list media */
+
+    #bal_actionset .ac-actionSet{
+        flex-wrap: wrap;
+    }
+    
+    #bal_list_date_column{
+        flex: 0 0 auto !important;
+
+    }
+    #bal_list_amount_container{
+        flex: 0 0 auto !important;
+            
+    }
+    #bal_list_type_container{
+        flex: 0 0 auto !important;
+
+
+    }
+    #bal_list_description_container{
+        flex: 0 0 auto !important;
+
+    }
+    #bal_list_type_container{
+        flex: 0 -1 auto !important;
+
+    }
+    /* responsive for mini statement */
+    /* #mini_statement_ac{
+        margin : 0 0 0 5px !important;
+    } */
+    #mini_statement_container_columnset_columnDate{
+        flex: 0 0 auto !important;
+
+    }
+    #mini_statement_container_columnset_columnDescription{
+        flex: 0 0 auto !important;
+
+    }
+    #mini_statement_container_columnset_columnAmount{
+        flex: 0 0 auto !important;
+
+    }
+    #mini_statement_container_columnset_columnType{
+        flex: 0 -1 auto !important;
+
+    }
+    #mini_statement_data_container_columnset_date_column{
+        flex: 0 0 auto !important;
+
+    }
+    #mini_statement_data_container_columnset_description_column{
+        flex: 0 0 auto !important;
+
+    }
+    #mini_statement_data_container_columnset_amount_column{
+        flex: 0 0 auto !important;
+
+    }
+    #mini_statement_data_container_columnset_type_column{
+        flex: 0 -1 auto !important;
+
+    }
+
+    /*other css */
+    .webchat__suggested-actions {
+        margin-left: 0;
+    }
+
+    #webchat .ac-pushButton div {
+        font-weight: 400 !important;
+    }
+
+    #webchat .webchat__send-box .webchat__send-box__main {
+        border: 1px solid darkgrey;
+        border-radius: 5px;
+        height: 8vh;
+        margin: 5px;
+    }
+
+    #webchat .webchat__suggested-actions {
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    #webchat .webchat__defaultAvatar--fromUser .webchat__imageAvatar__image > img {
+        width: 200%;
+    }
+
+    #webchat .webchat__imageAvatar__image > img {
+        width: 120%;
+    }
+
+    #webchat .webchat__initialsAvatar:not(.webchat__initialsAvatar--fromUser) {
+        width: 40px;
+        height: 46px;
+    }
+
+    [aria-label^="Sign in"] {
+        border-radius: 25px;
+        width: fit-content;
+    }
+
+    #webchat .webchat__stacked-layout__attachment {
+        width: 100vw;
+        margin: 0 0 0 -5px;
+    }
+    #webchat .webchat__send-box .webchat__send-box__main {
+        border: 1px solid darkgrey;
+        border-radius: 25px;
+        height: 6vh;
+        margin: 5px;
+    }
+    
+#ac_dc_action-set .ac-pushButton,
+#ac_db_login_actionset .ac-pushButton,
+#ac_pinchange_actionset .ac-pushButton,
+#ac_loan_actionset .ac-pushButton,
+#ac_cardswitch_actionset .ac-pushButton,
+#ac_dc_RnB_actionset .ac-pushButton,
+#ac_pinselection_actionset .ac-pushButton,
+#ac_cc_block_actionset .ac-pushButton,
+#b11b097b-d54f-873f-457b-e8f7ffa .ac-pushButton{
+    border-radius: 12px;
+    /* border-radius: 6px !; */
+    width: fit-content;
+    height: 0rem;  
+ 
+}
+    
+
+    /* Add more mobile-specific styles as needed */
+}
+@media  only screen and (min-width: 501px) {
+.newOLbot{
+    height: 83vh;
+    width: 100%;
+}
+#webchat .webchat__stacked-layout__attachment{
+    width: 78vw;
+    margin: 0 0 0 -11px;  
+}
+#webchat .webchat__send-box .webchat__send-box__main {
+    border: 1px solid darkgrey;
+    border-radius: 25px;
+    height: 6vh;
+    margin: 5px;
+}
+
+#ac_dc_action-set .ac-pushButton,
+#ac_db_login_actionset .ac-pushButton,
+#ac_pinchange_actionset .ac-pushButton,
+#ac_loan_actionset .ac-pushButton,
+#ac_cardswitch_actionset .ac-pushButton,
+#ac_dc_RnB_actionset .ac-pushButton,
+#ac_pinselection_actionset .ac-pushButton,
+#ac_cc_block_actionset .ac-pushButton,
+#b11b097b-d54f-873f-457b-e8f7ffa .ac-pushButton{
+    
+    border-radius: 12px;
+    /* border-radius: 6px !; */
+    width: fit-content;
+    height: 0rem;  
+ 
+}
+
+}

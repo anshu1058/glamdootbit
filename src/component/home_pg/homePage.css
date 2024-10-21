@@ -1,0 +1,299 @@
+/* HomePage.css */
+
+/* Resetting default styles */
+html,
+body {
+  height: 100%; 
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+}
+
+
+/* Styles for the root container */
+.makeStyles-root-9 {
+  width: 100%;
+  height: 100vh !important;
+  background-color:white;
+}
+
+/* Pseudo-element for the root container */
+.makeStyles-root-9::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0);
+}
+
+/* Background styles */
+
+  .background-hp {
+    /* width: 100%; */
+    /* height: 100%; */
+    position: relative;
+  }
+
+/* Styles for the page container */
+.page-container {
+  /* overflow: hidden; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 12px;
+}
+
+/* Styles for the image container */
+.image-container {
+  display: flex;
+  justify-content: center;
+  /* margin-top:45px; */
+}
+
+
+@media (min-width: 600px) and (max-width: 960px)  {
+  .box{
+   height: 23% !important; 
+  }
+ }
+
+ @media screen and (max-width: 700px) {
+  .image-container {
+    display: flex;
+    justify-content: center;
+    margin-top:45px;
+ 
+  }
+ 
+ }
+
+
+@media (min-width: 700px) and (max-width: 960px) {
+  .image-container {
+    display: flex;
+    justify-content: center;
+    margin-top:45px;
+   
+  }
+}
+.moduleicon{
+  width: 12%;
+}
+/* Logo styles */
+.logo {
+  width: 6%;
+  height: auto;
+  margin-top: 2em;
+  /* margin-bottom: 2%; */
+  /* padding-top: 2%; */
+}
+@media  (max-width: 700px) {
+  .logo {
+    width: 15%;
+    height: auto;
+    margin-top: 2em;
+    /* margin-bottom: 2%; */
+    /* padding-top: 2%; */
+  }
+ }
+@media (min-width: 700px) and (max-width: 960px) {
+  .logo {
+    width: 15%;
+    height: auto;
+    margin-top: 2em;
+    /* margin-bottom: 2%; */
+    /* padding-top: 2%; */
+  }
+}
+/* Styles for the main container */
+.main-container {
+  width: 90%;
+  height: auto;
+  margin: 20px auto;
+  align-content: center;
+  align-items: center;
+  /* margin: auto; */
+  background-color: rgba(255, 255, 255, 1);
+  backdrop-filter: blur(7px);
+  background-size: cover;
+  /* margin-bottom: 30px; */
+  background-position: center;
+  padding: 1.5% 1.5%;
+  border-radius: 25px;
+  box-shadow: 0 0 20px rgba(66, 67, 68, 0.8 );
+  text-align: center;
+  position: relative;
+  transition: width 0.3s; /* Add a transition for the width property */
+}
+
+/* Grid styles */
+.grid {
+  position: relative;
+  display: grid;
+  justify-content: left;
+  
+}
+
+
+/* Box styles */
+.box {
+  /* width: 89%; */
+  height: 33%;
+  /* margin-top: 15px; */
+  box-shadow: 0 5px 10px rgba(106, 106, 106, 0.9);
+  padding: 11% 11%;
+  border-radius: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transform: translate(2%);
+}
+
+@media (max-width: 1200px) {
+  .box {
+    padding: 15% 8%;
+  }
+/*   
+  .link {
+    font-size: 12px;
+  } */
+}
+@media (max-width: 992px) {
+  .box {
+    padding: 20% 6%;
+  }
+  
+  .link {
+    font-size: 8px;
+  }
+}
+/* Link styles */
+.link {
+  text-decoration: none;
+ /* color: #000000; */
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Add specific styles for each box */
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6 {
+  /* background-image: url(../Auth/images/bgImage4.jpg) !important; */
+  /* background-size: cover !important; */
+  /* background-position: right !important; */
+  position: relative;
+  margin: 2%;
+}
+.box1{
+  /* background-color: #97CADB; */
+  /* border:3px solid #97CADB */
+}
+.box1 .link{
+  color:#001B48;
+  font-weight: 600;
+  /* font-size: 20px; */
+}
+.box1 .boxContent{
+    font-size: 14px;
+     color: #001B48;
+     text-transform:capitalize;
+     font-weight:400
+}
+.box2{
+  /* background-color: #FADCE4; */
+  border:3px solid #FADCE4;
+}
+.box2 .link{
+  color: #A5678E;
+}
+.box3{
+  border: 3px solid #dfd6e2;
+  color: #A5678E;
+}
+.box3 .link{
+  color: #530737;
+}
+.box4{
+  /* background-color: #f9957f; */
+  border:3px solid  #f9957f;
+}
+.box4 .link{
+  color: #e25232;
+}
+.box5{
+  /* background-color: #abbcce; */
+  border:3px solid #abbcce;
+  color: #FEC89A;
+}
+.box5 .link{
+  color: #52606e;
+}
+.box6{
+  /* background-color: #ffd280; */
+  border:3px solid #ffd280;
+  color: #A5678E;
+}
+.box6 .link{
+  color: #ba8c65;
+}
+
+/* Hover effects for boxes */
+.box1:hover,
+.box2:hover,
+.box3:hover,
+.box4:hover,
+.box5:hover,
+.box6:hover {
+  transform: translateY(-3%);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.box4:hover,
+.box5:hover,
+.box6:hover {
+  transform: translateY(3%);
+}
+
+.boxContent {
+  height: 12vh; /* Adjust the height as per your design */
+}
+
+.tlogo{
+  width: 40px;
+  height: 40px;
+  /* Other necessary styles for the icon */
+  animation: spin 4.5s linear infinite; /* Adjust the duration or other properties as needed */
+}
+
+@keyframes spin {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+.Ctitle{
+  color: white;
+  margin-left: 5px !important;
+  font-weight: 500;
+  font-size: 22px;
+}
+.css-ubpweo-MuiPaper-root-MuiPopover-paper{
+  border-radius: 16px !important;
+}

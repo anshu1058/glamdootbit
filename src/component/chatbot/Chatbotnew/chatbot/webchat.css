@@ -1,0 +1,113 @@
+/* Chatbot container */
+.chatbot-container {
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Chat window */
+  .chat-window {
+    max-height: 300px;
+    overflow-y: scroll;
+    padding: 10px;
+  }
+  
+  /* User message */
+  .user-message {
+    text-align: right;
+    margin: 5px 0;
+    padding: 5px 0px;
+    /* border-radius: 9px 9px 0px 9px;
+    box-shadow: blue 1px 2px 3px;
+    background: darkblue; */
+    color: white;
+    /* width:13vw; */
+    
+    /* padding: 1rem; */
+    /* margin-left: 15rem */
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  /* Bot message */
+  .bot-message {
+    border-radius: 15px 15px 15px 0px;
+      box-shadow:13px 12px 22px -4px #c7c7c757;
+      /* background: 'rgb(232 232 232)', */
+      color: black;
+      width:fit-content;
+      padding: 12px;
+      margin-bottom: 1rem;
+      /* margin-right: 25px; */
+      margin-top: 12px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .bot-message {
+        width: 93%;
+
+    }
+}
+  
+  /* Input container */
+  .input-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .input-container input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .input-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .input-container button:hover {
+    background-color: #0056b3;
+  }
+  .typing-animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dot-1,
+  .dot-2,
+  .dot-3 {
+    width: 8px;
+    height: 8px;
+    background-color: #007bff; /* Color of the dots */
+    border-radius: 50%;
+    margin: 0 2px;
+    animation: typing 1s infinite;
+  }
+  
+  .dot-2 {
+    animation-delay: 0.2s;
+  }
+  
+  .dot-3 {
+    animation-delay: 0.4s;
+  }
+  
+  @keyframes typing {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  

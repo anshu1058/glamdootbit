@@ -1,0 +1,170 @@
+/* DataTable.css */
+.table-container {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+  }
+  
+  /* Table styles */
+  .data-grid {
+    height: 60vh;
+    border: 1px solid #167BF5;
+    /* border-top-left-radius: 8px;
+       border-top-right-radius: 8px; */
+  }
+  
+  @media (max-width: 480px) {
+    .data-grid {
+      height: 40vh;
+    }
+  }
+  
+  @media (min-width: 481px) and (max-width: 768px) {
+    .data-grid {
+      height: 40vh;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1199px) {
+    .data-grid {
+      height: 45vh;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .data-grid {
+      height: 50vh;
+    }
+  }
+  
+  
+
+.inovua-react-toolkit-checkbox.inovua-react-toolkit-checkbox--theme-default-light.inovua-react-toolkit-checkbox--unchecked .inovua-react-toolkit-checkbox__icon-wrapper {
+    stroke:none;
+    border-radius: 5px;
+    border: 1px solid;
+}
+.InovuaReactDataGrid--theme-default-light .InovuaReactDataGrid__row--odd {
+  background: #167bf505;
+}
+  
+  .InovuaReactDataGrid--theme-default-light .InovuaReactDataGrid__row .InovuaReactDataGrid__cell {
+    border: 0.0009px solid #167BF5 !important;
+    border-bottom: none;
+    border-left:none ;
+    border-bottom: none;
+    border-top: none !important;
+    border-right: none !important
+}
+
+.InovuaReactDataGrid--theme-default-light .InovuaReactDataGrid__header{
+ /* border-bottom: 1px solid #e4e3e2; */
+ border-bottom: none !important;
+ border-left: none !important;
+ border-top:none !important;
+ border-right: none !important;
+}
+
+.InovuaReactDataGrid--theme-default-light .InovuaReactDataGrid__column-header{
+  border: 0.0009px solid #167BF5 !important;
+  border-bottom: none;
+  border-right: none !important;
+  border-top:none !important;
+}
+.pagination-controls {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* margin-top: 15px; */
+    font-size: 14px;
+    border: 1px solid #167BF5;
+    border-top: none;
+    padding-left: 7px;
+    color: #777;
+    height: 8vh;
+    /* border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px; */
+    
+  }
+  .results-per-page {
+    border-right: 1px solid #ccc;
+    padding: 5px;
+    box-shadow: 5px 4px 4px -1px #8080803d;
+    border-radius: 8px;
+    border: 0.5px solid #80808024
+  }
+  
+  
+  .results-per-page select {
+    margin-right: 10px;
+    margin-left: 4px;
+    padding: 1px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-size: 14px;
+    height: 23px;
+    box-shadow: 5px 4px 4px -1px #8080803d;
+    border-radius: 8px;
+    border: 0.5px solid #80808024
+   
+  }
+  
+  .pagination-arrows {
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #ccc;
+    padding: 6px;
+    margin-right: 15px;
+    box-shadow: 1px 1px 1px #8080803d;
+    box-shadow: 5px 4px 4px -1px #8080803d;
+    border-radius: 8px;
+    border: 0.5px solid #80808024
+  }
+
+  
+  .showing-pages {
+    /* margin-left: 10px; */
+    border-right: 1px solid #ccc;
+    padding-right: 10px;
+    /* height: 23px; */
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 4px 4px -1px #8080803d;
+    border-radius: 8px;
+    border: 0.5px solid #80808024;
+    height: 4.7vh;
+    margin-left: 12px;
+  }
+  .selectedpages{
+    margin-left: 10px;
+    border-right: 1px solid #ccc;
+    padding: 0px 8px;
+    height: 23px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center; 
+    box-shadow: 5px 4px 4px -1px #8080803d;
+    border-radius: 8px;
+    border: 0.5px solid #80808024;
+    height: 4.7vh;
+    margin-left: 12px;
+  }
+  
+  @media screen and (max-width: 748px) { 
+    .showing-pages {
+      display: none;
+    }
+    .selectedpages{
+      display: none;
+    }
+    .resultppText{
+      display: none;
+    }
+    .pagenumber{
+      font-size: 10px !important;
+    }
+  }

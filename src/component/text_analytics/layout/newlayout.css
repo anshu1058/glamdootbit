@@ -1,0 +1,133 @@
+html, body, #root {  
+    background-color: #e9e9e9;  
+  }  
+  
+  .tooltip-container {  
+    position: relative;  
+  }  
+  
+  .larger-container {  
+    padding: 35px 0px;  
+    border: none;  
+    border-radius: 10px;  
+    outline: none;  
+    resize: none;  
+    justify-content: center;  
+  }  
+  
+  .tooltip-textarea {  
+    width: 470px;  
+    height: 380px;  
+    padding: 20px;  
+    border-radius: 10px;  
+    outline: none;  
+    border: none;  
+    resize: none;  
+    position: relative;  
+    justify-self: center;  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 -2px 4px rgba(0, 0, 0, 0.1);  
+  }  
+  
+  /* Common styles for rounded tabs */
+  .rounded-tab,
+  .rounded-tab-2,
+  .rounded-tab-3,
+  .rounded-tab-4,
+  .rounded-tab-5,
+  .rounded-tab-6,
+  .rounded-tab-7 {  
+    --r: 10px;  
+    line-height: 1.2;  
+    padding-inline: .2em;  
+    border-inline: var(--r) solid #0000;  
+    border-radius: calc(2 * var(--r)) calc(2 * var(--r)) 0 0 / var(--r);  
+    mask: radial-gradient(var(--r) at var(--r) 0, #0000 98%, #000 101%) calc(-1 * var(--r)) 100% / 100% var(--r) repeat-x, conic-gradient(#000 0 0) padding-box;  
+    background: #ffffff border-box;  
+    display: flex;  
+    justify-content: center;  
+    padding-top: 2px;  
+  }  
+  
+  /* Specific widths for different rounded tabs */
+  .rounded-tab {  
+    /* width: 100%;   */
+    height: 30px;
+    position: relative;  
+    padding: 10px; 
+  }  
+  
+  .rounded-tab-2 {  
+    width: 36%;  
+    position: relative;  
+  }  
+  
+  .rounded-tab-3 {  
+    /* width: 77%;   */
+    position: relative;  
+    transform: rotate(180deg);  
+    gap: 5px;
+    height: 49px;
+  }  
+  
+  .rounded-tab-4 {  
+    width: 23%;  
+    position: absolute;  
+    top: 15%;  
+    left: 79%;  
+  }  
+  
+  .rounded-tab-5 {  
+    /* width: 37%;   */
+    position: relative;  
+    transform: rotate(180deg);  
+  }  
+  
+  .rounded-tab-6 {  
+    /* width: 50%;   */
+    position: relative; 
+    height: 49px
+  }  
+  
+  .rounded-tab-7 {  
+    /* width: 25%;   */
+    height: 49px;
+    position: relative;  
+    transform: rotate(180deg);  
+  }  
+  
+  /* Button styles */
+  .resetbtn, .btn {  
+    transform: rotate(180deg) ;  
+  }  
+  
+  .toggle-button {  
+    padding: 9px 6px;  
+    border: 1px solid rgb(226, 226, 226);  
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.1);  
+    background: #ffffff;  
+    cursor: pointer;  
+    transition: background 0.3s;  
+    flex: 1;  
+    text-align: center;  
+    font-size: 14px;  
+    border-radius: 8px;  
+  }  
+  
+  .toggle-button.active {  
+    background-color: #d3d3d3; /* Change this to your preferred active color */  
+  }  
+  
+  .Reset-button {  
+    padding: 6px 6px;  
+    border: 1px solid rgb(226, 226, 226);  
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
+    background: #ffffff;  
+    cursor: pointer;  
+    transition: background 0.3s;  
+    flex: 1;  
+    text-align: center;  
+    transform: rotate(180deg);  
+    font-size: 14px;  
+    border-radius: 8px;  
+  }  
+  
